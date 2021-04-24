@@ -1,5 +1,4 @@
 import numpy as np
-
 import trax
 from trax import layers as tl
 from trax.fastmath import numpy as fastnp
