@@ -1,426 +1,106 @@
 from termcolor import colored
-import random
 import numpy as np
 import trax
 from trax import layers as tl
 from trax.fastmath import numpy as fastnp
 from trax.supervised import training
+import w1_unittest
+from core.log_manager import LogManagerBase
+from utils.utils import append_eos, tokenize, detokenize
+from core.attention_model import AttentionModel
+from preprocessor import Preprocessor
 
-#get_ipython().system('pip list | grep trax')
 
+class Trainer():
+
+    def __init__(self):
+        return None
+
+    def generator_data(self, folder_data):
+        """
+        Get generator function for the training/eval dataset.
+        This will download the train dataset if no data_dir is specified.
+
+        Args:
+            folder_data: folder dataset
+        Returns: 
+            stream generated datasets
+        """
+        train_stream_fn = trax.data.TFDS('opus/medical',
+                                         data_dir='./../data/',
+                                         keys=('en', 'de'),
+                                         eval_holdout_size=0.01, # 1% for eval
+                                         train=True)
+        # Get generator function for the eval set
+        eval_stream_fn = trax.data.TFDS('opus/medical',
+                                        data_dir='./../data/',
+                                        keys=('en', 'de'),
+                                        eval_holdout_size=0.01, # 1% for eval
+                                        train=False)
+        return train_stream_fn, eval_stream_fn
+
+    def run(self, folder_data, vocab_file, vocab_dir):
+        train_stream_fn, eval_stream_fn = self.generator_data(folder_data)
+        train_stream = train_stream_fn()
+        LogManagerBase.info(colored(f'first train data (en, de) tuple: ', 'green') +
+                            str(next(train_stream)))
+        eval_stream = eval_stream_fn()
+        LogManagerBase.info(colored(f'first eval data (en, de) tuple: ', 'green') +
+                            str(next(eval_stream)))
+        
+        train_batch_stream, eval_batch_stream, mask_batch = Preprocessor().run(train_stream, eval_stream, vocab_file, vocab_dir)
+        # Training
+        nmt_attn_model = AttentionModel().nmt_attn()
+        LogManagerBase.info(nmt_attn_model)
+
+        train_task = training.TrainTask(
+            # use the train batch stream as labeled data
+            labeled_data= train_batch_stream,
+            # use the cross entropy loss
+            loss_layer= tl.CrossEntropyLoss(),
+            # use the Adam optimizer with learning rate of 0.01
+            optimizer= trax.optimizers.Adam(0.01),
+            # use the `trax.lr.warmup_and_rsqrt_decay` as the learning rate schedule
+            # have 1000 warmup steps with a max value of 0.01
+            lr_schedule= trax.lr.warmup_and_rsqrt_decay(1000, 0.01),
+            # have a checkpoint every 10 steps
+            n_steps_per_checkpoint= 10,)
+
+        #print("test_train_task ....")
+        #w1_unittest.test_train_task(train_task)
+
+        eval_task = training.EvalTask(
+            ## use the eval batch stream as labeled data
+            labeled_data=eval_batch_stream,
+            ## use the cross entropy loss and accuracy as metrics
+            metrics=[tl.CrossEntropyLoss(), tl.Accuracy()],)
+
+        # define the output directory
+        output_dir = './../models/'
+        # define the training loop
+        training_loop = training.Loop(AttentionModel().nmt_attn(mode='train'),
+                                    train_task,
+                                    eval_tasks=[eval_task],
+                                    output_dir=output_dir)
+        # Execute the training loop. This will take around 8 minutes to complete.
+        print("---------------------------------0---------------------------------------")
+        training_loop.run(1)
+        print("---------------------------------end---------------------------------------")
+        return train_batch_stream, eval_batch_stream, mask_batch
 
 if __name__ == "__main__":
-    print("welcome")
 
-    # Get generator function for the training set
-    # This will download the train dataset if no data_dir is specified.
-    train_stream_fn = trax.data.TFDS('opus/medical',
-                                    data_dir='./../data/',
-                                    keys=('en', 'de'),
-                                    eval_holdout_size=0.01, # 1% for eval
-                                    train=True)
+    folder_data = './../data/'
+    vocab_file = 'ende_32k.subword'
+    vocab_dir = './../data/'
+    TRAINER = Trainer()
+    train_batch_stream, eval_batch_stream = TRAINER.run(folder_data, vocab_file, vocab_dir)
 
-    # Get generator function for the eval set
-    eval_stream_fn = trax.data.TFDS('opus/medical',
-                                    data_dir='./../data/',
-                                    keys=('en', 'de'),
-                                    eval_holdout_size=0.01, # 1% for eval
-                                    train=False)
 
 
-    train_stream = train_stream_fn()
-    print(colored('train data (en, de) tuple:', 'red'), next(train_stream))
-    print()
 
-    eval_stream = eval_stream_fn()
-    print(colored('eval data (en, de) tuple:', 'red'), next(eval_stream))
 
 
 
-    # global variables that state the filename and directory of the vocabulary file
-    VOCAB_FILE = 'ende_32k.subword'
-    VOCAB_DIR = './../data/'
-
-    # Tokenize the dataset.
-    tokenized_train_stream = trax.data.Tokenize(vocab_file=VOCAB_FILE, vocab_dir=VOCAB_DIR)(train_stream)
-    tokenized_eval_stream = trax.data.Tokenize(vocab_file=VOCAB_FILE, vocab_dir=VOCAB_DIR)(eval_stream)
-
-
-
-    # Append EOS at the end of each sentence.
-    EOS = 1
-
-    # generator helper function to append EOS to each sentence
-    def append_eos(stream):
-        for (inputs, targets) in stream:
-            inputs_with_eos = list(inputs) + [EOS]
-            targets_with_eos = list(targets) + [EOS]
-            yield np.array(inputs_with_eos), np.array(targets_with_eos)
-
-    # append EOS to the train data
-    tokenized_train_stream = append_eos(tokenized_train_stream)
-
-    # append EOS to the eval data
-    tokenized_eval_stream = append_eos(tokenized_eval_stream)
-
-
-    # Filter too long sentences to not run out of memory.
-    # length_keys=[0, 1] means we filter both English and German sentences, so
-    # both much be not longer that 256 tokens for training / 512 for eval.
-    filtered_train_stream = trax.data.FilterByLength(
-        max_length=256, length_keys=[0, 1])(tokenized_train_stream)
-    filtered_eval_stream = trax.data.FilterByLength(
-        max_length=512, length_keys=[0, 1])(tokenized_eval_stream)
-
-    # print a sample input-target pair of tokenized sentences
-    train_input, train_target = next(filtered_train_stream)
-    print(colored(f'Single tokenized example input:', 'red' ), train_input)
-    print(colored(f'Single tokenized example target:', 'red'), train_target)
-
-
-    # Setup helper functions for tokenizing and detokenizing sentences
-    def tokenize(input_str, vocab_file=None, vocab_dir=None):
-        """Encodes a string to an array of integers
-
-        Args:
-            input_str (str): human-readable string to encode
-            vocab_file (str): filename of the vocabulary text file
-            vocab_dir (str): path to the vocabulary file
-    
-        Returns:
-            numpy.ndarray: tokenized version of the input string
-        """
-        
-        # Set the encoding of the "end of sentence" as 1
-        EOS = 1
-        
-        # Use the trax.data.tokenize method. It takes streams and returns streams,
-        # we get around it by making a 1-element stream with `iter`.
-        inputs =  next(trax.data.tokenize(iter([input_str]),
-                                        vocab_file=vocab_file, vocab_dir=vocab_dir))
-        
-        # Mark the end of the sentence with EOS
-        inputs = list(inputs) + [EOS]
-        
-        # Adding the batch dimension to the front of the shape
-        batch_inputs = np.reshape(np.array(inputs), [1, -1])
-        
-        return batch_inputs
-
-
-    def detokenize(integers, vocab_file=None, vocab_dir=None):
-        """Decodes an array of integers to a human readable string
-
-        Args:
-            integers (numpy.ndarray): array of integers to decode
-            vocab_file (str): filename of the vocabulary text file
-            vocab_dir (str): path to the vocabulary file
-    
-        Returns:
-            str: the decoded sentence.
-        """
-        
-        # Remove the dimensions of size 1
-        integers = list(np.squeeze(integers))
-        
-        # Set the encoding of the "end of sentence" as 1
-        EOS = 1
-        
-        # Remove the EOS to decode only the original tokens
-        if EOS in integers:
-            integers = integers[:integers.index(EOS)] 
-        
-        return trax.data.detokenize(integers, vocab_file=vocab_file, vocab_dir=vocab_dir)
-
-
-
-    # As declared earlier:
-    # VOCAB_FILE = 'ende_32k.subword'
-    # VOCAB_DIR = 'data/'
-
-    # Detokenize an input-target pair of tokenized sentences
-    print(colored(f'Single detokenized example input:', 'red'), detokenize(train_input, vocab_file=VOCAB_FILE, vocab_dir=VOCAB_DIR))
-    print(colored(f'Single detokenized example target:', 'red'), detokenize(train_target, vocab_file=VOCAB_FILE, vocab_dir=VOCAB_DIR))
-    print()
-
-    # Tokenize and detokenize a word that is not explicitly saved in the vocabulary file.
-    # See how it combines the subwords -- 'hell' and 'o'-- to form the word 'hello'.
-    print(colored(f"tokenize('hello'): ", 'green'), tokenize('hello', vocab_file=VOCAB_FILE, vocab_dir=VOCAB_DIR))
-    print(colored(f"detokenize([17332, 140, 1]): ", 'green'), detokenize([17332, 140, 1], vocab_file=VOCAB_FILE, vocab_dir=VOCAB_DIR))
-
-
-    # Bucketing to create streams of batches.
-
-    boundaries =  [8,   16,  32, 64, 128, 256, 512]
-    batch_sizes = [256, 128, 64, 32, 16,    8,   4,  2]
-
-    # Create the generators.
-    train_batch_stream = trax.data.BucketByLength(
-        boundaries, batch_sizes,
-        length_keys=[0, 1]  # As before: count inputs and targets to length.
-    )(filtered_train_stream)
-
-    eval_batch_stream = trax.data.BucketByLength(
-        boundaries, batch_sizes,
-        length_keys=[0, 1]  # As before: count inputs and targets to length.
-    )(filtered_eval_stream)
-
-    # Add masking for the padding (0s).
-    train_batch_stream = trax.data.AddLossWeights(id_to_mask=0)(train_batch_stream)
-    eval_batch_stream = trax.data.AddLossWeights(id_to_mask=0)(eval_batch_stream)
-
-
-    input_batch, target_batch, mask_batch = next(train_batch_stream)
-
-    # let's see the data type of a batch
-    print("input_batch data type: ", type(input_batch))
-    print("target_batch data type: ", type(target_batch))
-
-    # let's see the shape of this particular batch (batch length, sentence length)
-    print("input_batch shape: ", input_batch.shape)
-    print("target_batch shape: ", target_batch.shape)
-
-
-    # pick a random index less than the batch size.
-    index = random.randrange(len(input_batch))
-
-    # use the index to grab an entry from the input and target batch
-    print(colored('THIS IS THE ENGLISH SENTENCE: \n', 'red'), detokenize(input_batch[index], vocab_file=VOCAB_FILE, vocab_dir=VOCAB_DIR), '\n')
-    print(colored('THIS IS THE TOKENIZED VERSION OF THE ENGLISH SENTENCE: \n ', 'red'), input_batch[index], '\n')
-    print(colored('THIS IS THE GERMAN TRANSLATION: \n', 'red'), detokenize(target_batch[index], vocab_file=VOCAB_FILE, vocab_dir=VOCAB_DIR), '\n')
-    print(colored('THIS IS THE TOKENIZED VERSION OF THE GERMAN TRANSLATION: \n', 'red'), target_batch[index], '\n')
-
-
-
-    # Neural Machine Translation with Attention
-
-    def input_encoder_fn(input_vocab_size, d_model, n_encoder_layers):
-        """ Input encoder runs on the input sentence and creates
-        activations that will be the keys and values for attention.
-        
-        Args:
-            input_vocab_size: int: vocab size of the input
-            d_model: int:  depth of embedding (n_units in the LSTM cell)
-            n_encoder_layers: int: number of LSTM layers in the encoder
-        Returns:
-            tl.Serial: The input encoder
-        """
-        
-        # create a serial network
-        input_encoder = tl.Serial( 
-            
-            # create an embedding layer to convert tokens to vectors
-            tl.Embedding(input_vocab_size, d_model),
-            
-            # feed the embeddings to the LSTM layers. It is a stack of n_encoder_layers LSTM layers
-            [tl.LSTM(d_model) for _ in range(n_encoder_layers)]
-        )
-
-        return input_encoder
-
-
-    import w1_unittest
-    w1_unittest.test_input_encoder_fn(input_encoder_fn)
-
-
-    #Pre-attention decoder
-
-    def pre_attention_decoder_fn(mode, target_vocab_size, d_model):
-        """ Pre-attention decoder runs on the targets and creates
-        activations that are used as queries in attention.
-        
-        Args:
-            mode: str: 'train' or 'eval'
-            target_vocab_size: int: vocab size of the target
-            d_model: int:  depth of embedding (n_units in the LSTM cell)
-        Returns:
-            tl.Serial: The pre-attention decoder
-        """
-        
-        # create a serial network
-        pre_attention_decoder = tl.Serial(
-            
-            # shift right to insert start-of-sentence token and implement
-            # teacher forcing during training
-            tl.ShiftRight(),
-
-            # run an embedding layer to convert tokens to vectors
-            tl.Embedding(target_vocab_size, d_model),
-
-            # feed to an LSTM layer
-            tl.LSTM(d_model)
-        )
-        
-        return pre_attention_decoder
-
-
-    w1_unittest.test_pre_attention_decoder_fn(pre_attention_decoder_fn)
-
-    # Preparing the attention input
-
-    def prepare_attention_input(encoder_activations, decoder_activations, inputs):
-        """Prepare queries, keys, values and mask for attention.
-        
-        Args:
-            encoder_activations fastnp.array(batch_size, padded_input_length, d_model): output from the input encoder
-            decoder_activations fastnp.array(batch_size, padded_input_length, d_model): output from the pre-attention decoder
-            inputs fastnp.array(batch_size, padded_input_length): padded input tokens
-        
-        Returns:
-            queries, keys, values and mask for attention.
-        """
-            
-        # set the keys and values to the encoder activations
-        keys = encoder_activations
-        values = encoder_activations
-
-        # set the queries to the decoder activations
-        queries = decoder_activations
-        
-        # generate the mask to distinguish real tokens from padding
-        # inputs is 1 for real tokens and 0 where they are padding
-        mask = (inputs > 0)*1
-
-        # add axes to the mask for attention heads and decoder length.
-        mask = fastnp.reshape(mask, (mask.shape[0], 1, 1, mask.shape[1]))
-
-        # broadcast so mask shape is [batch size, attention heads, decoder-len, encoder-len].
-        # note: attention heads is set to 1.
-        mask = mask + fastnp.zeros((1, 1, decoder_activations.shape[1], 1))
-
-        return queries, keys, values, mask
-
-
-    w1_unittest.test_prepare_attention_input(prepare_attention_input)
-
-
-    def NMTAttn(input_vocab_size=33300,
-                target_vocab_size=33300,
-                d_model=1024,
-                n_encoder_layers=2,
-                n_decoder_layers=2,
-                n_attention_heads=4,
-                attention_dropout=0.0,
-                mode='train'):
-        """Returns an LSTM sequence-to-sequence model with attention.
-
-        The input to the model is a pair (input tokens, target tokens), e.g.,
-        an English sentence (tokenized) and its translation into German (tokenized).
-
-        Args:
-        input_vocab_size: int: vocab size of the input
-        target_vocab_size: int: vocab size of the target
-        d_model: int:  depth of embedding (n_units in the LSTM cell)
-        n_encoder_layers: int: number of LSTM layers in the encoder
-        n_decoder_layers: int: number of LSTM layers in the decoder after attention
-        n_attention_heads: int: number of attention heads
-        attention_dropout: float, dropout for the attention layer
-        mode: str: 'train', 'eval' or 'predict', predict mode is for fast inference
-
-        Returns:
-        A LSTM sequence-to-sequence model with attention.
-        """
-        
-        # Step 0: call the helper function to create layers for the input encoder
-        input_encoder = input_encoder_fn(input_vocab_size, d_model, n_encoder_layers)
-
-        # Step 0: call the helper function to create layers for the pre-attention decoder
-        pre_attention_decoder = pre_attention_decoder_fn(mode, target_vocab_size, d_model)
-
-        # Step 1: create a serial network
-        model = tl.Serial( 
-            
-        # Step 2: copy input tokens and target tokens as they will be needed later.
-        tl.Select([0, 1, 0, 1]),
-            
-        # Step 3: run input encoder on the input and pre-attention decoder the target.
-        tl.Parallel(input_encoder, pre_attention_decoder),
-            
-        # Step 4: prepare queries, keys, values and mask for attention.
-        tl.Fn('PrepareAttentionInput', prepare_attention_input, n_out=4),
-            
-        # Step 5: run the AttentionQKV layer
-        # nest it inside a Residual layer to add to the pre-attention decoder activations(i.e. queries)
-        tl.Residual(tl.AttentionQKV(d_model, n_heads=n_attention_heads, dropout=attention_dropout, mode=mode)),
-        
-        # Step 6: drop attention mask (i.e. index = None
-        tl.Select([0,2]),
-            
-        # Step 7: run the rest of the RNN decoder
-        [tl.LSTM(d_model) for _ in range(n_decoder_layers)],
-
-        # Step 8: prepare output by making it the right size
-        tl.Dense(input_vocab_size),
-            
-        # Step 9: Log-softmax for output
-        tl.LogSoftmax()
-        )
-            
-        return model
-
-
-    w1_unittest.test_NMTAttn(NMTAttn)
-
-
-
-    # print your model
-    model = NMTAttn()
-    print(model)
-
-
-    train_task = training.TrainTask(
-        
-        # use the train batch stream as labeled data
-        labeled_data= train_batch_stream,
-        
-        # use the cross entropy loss
-        loss_layer= tl.CrossEntropyLoss(),
-        
-        # use the Adam optimizer with learning rate of 0.01
-        optimizer= trax.optimizers.Adam(0.01),
-        
-        # use the `trax.lr.warmup_and_rsqrt_decay` as the learning rate schedule
-        # have 1000 warmup steps with a max value of 0.01
-        lr_schedule= trax.lr.warmup_and_rsqrt_decay(1000, 0.01),
-        
-        # have a checkpoint every 10 steps
-        n_steps_per_checkpoint= 10,
-        
-    )
-
-
-    w1_unittest.test_train_task(train_task)
-
-
-    eval_task = training.EvalTask(
-        
-        ## use the eval batch stream as labeled data
-        labeled_data=eval_batch_stream,
-        
-        ## use the cross entropy loss and accuracy as metrics
-        metrics=[tl.CrossEntropyLoss(), tl.Accuracy()],
-    )
-
-
-
-
-    # define the output directory
-    output_dir = './../models/'
-
-    # remove old model if it exists. restarts training.
-    #get_ipython().system('rm -f ~/output_dir/model.pkl.gz  ')
-
-    # define the training loop
-    training_loop = training.Loop(NMTAttn(mode='train'),
-                                train_task,
-                                eval_tasks=[eval_task],
-                                output_dir=output_dir)
-
-
-
-    # Execute the training loop. This will take around 8 minutes to complete.
-    print("---------------------------------0---------------------------------------")
-    #training_loop.run(2)
-    print("---------------------------------end---------------------------------------")
 
 

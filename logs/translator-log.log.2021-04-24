@@ -1,0 +1,100 @@
+2021-04-24 23:30:51,990 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-24 23:30:51,992 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-24 23:30:51,993 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-24 23:30:51,994 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-24 23:30:52,036 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-24 23:30:52,037 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-24 23:30:52,037 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-24 23:30:52,085 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-24 23:30:52,086 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-24 23:30:52,087 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-24 23:30:52,087 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-24 23:30:52,106 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-24 23:30:52,107 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-24 23:30:52,107 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-24 23:31:30,743 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-24 23:31:30,745 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-24 23:31:30,746 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-24 23:31:30,746 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-24 23:31:30,789 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-24 23:31:30,791 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-24 23:31:30,791 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-24 23:31:30,844 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-24 23:31:30,845 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-24 23:31:30,845 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-24 23:31:30,846 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-24 23:31:30,864 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-24 23:31:30,865 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-24 23:31:30,865 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-24 23:31:30,921 - INFO     - ~ - [31mtrain data (en, de) tuple:[0m(b'Sverige BRISTOL-MYERS SQUIBB AB Tel: + 46 8 704 71 00\n', b'Sverige BRISTOL-MYERS SQUIBB AB Tel: + 46 8 704 71 00\n')
+2021-04-24 23:31:31,422 - INFO     - ~ - [31meval data (en, de) tuple:[0m(b'Lutropin alfa Subcutaneous use.\n', b'Pulver zur Injektion Lutropin alfa Subkutane Anwendung\n')
+2021-04-24 23:31:32,222 - WARNING  - No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2021-04-24 23:31:32,592 - INFO     - Initializing hosts and devices: host_id 0, host_count 1, is_chief 1
+2021-04-24 23:33:34,692 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-24 23:33:34,694 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-24 23:33:34,695 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-24 23:33:34,695 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-24 23:33:34,738 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-24 23:33:34,739 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-24 23:33:34,740 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-24 23:33:34,787 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-24 23:33:34,788 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-24 23:33:34,789 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-24 23:33:34,789 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-24 23:33:34,808 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-24 23:33:34,809 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-24 23:33:34,809 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-24 23:33:34,866 - INFO     - ~ - [31mfirst train data (en, de) tuple: [0m(b'Decreased Appetite\n', b'Verminderter Appetit\n')
+2021-04-24 23:33:35,382 - INFO     - ~ - [31mfirst eval data (en, de) tuple: [0m(b'Lutropin alfa Subcutaneous use.\n', b'Pulver zur Injektion Lutropin alfa Subkutane Anwendung\n')
+2021-04-24 23:33:36,177 - WARNING  - No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2021-04-24 23:33:36,548 - INFO     - Initializing hosts and devices: host_id 0, host_count 1, is_chief 1
+2021-04-24 23:34:50,159 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-24 23:34:50,161 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-24 23:34:50,162 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-24 23:34:50,162 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-24 23:34:50,204 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-24 23:34:50,205 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-24 23:34:50,205 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-24 23:34:50,256 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-24 23:34:50,257 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-24 23:34:50,258 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-24 23:34:50,258 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-24 23:34:50,276 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-24 23:34:50,277 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-24 23:34:50,277 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-24 23:34:50,333 - INFO     - ~ - [31mfirst train data (en, de) tuple: [0m(b'Decreased Appetite\n', b'Verminderter Appetit\n')
+2021-04-24 23:34:50,833 - INFO     - ~ - [31mfirst eval data (en, de) tuple: [0m(b'Lutropin alfa Subcutaneous use.\n', b'Pulver zur Injektion Lutropin alfa Subkutane Anwendung\n')
+2021-04-24 23:34:51,618 - WARNING  - No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2021-04-24 23:34:51,972 - INFO     - Initializing hosts and devices: host_id 0, host_count 1, is_chief 1
+2021-04-24 23:48:14,714 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-24 23:48:14,716 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-24 23:48:14,717 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-24 23:48:14,717 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-24 23:48:14,761 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-24 23:48:14,762 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-24 23:48:14,762 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-24 23:48:14,813 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-24 23:48:14,814 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-24 23:48:14,815 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-24 23:48:14,815 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-24 23:48:14,833 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-24 23:48:14,834 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-24 23:48:14,834 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-24 23:48:14,889 - INFO     - ~ - [31mfirst train data (en, de) tuple: [0m(b'Finland\n', b'Finnland\n')
+2021-04-24 23:48:15,421 - INFO     - ~ - [31mfirst eval data (en, de) tuple: [0m(b'Lutropin alfa Subcutaneous use.\n', b'Pulver zur Injektion Lutropin alfa Subkutane Anwendung\n')
+2021-04-24 23:54:37,268 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-24 23:54:37,270 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-24 23:54:37,271 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-24 23:54:37,271 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-24 23:54:37,315 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-24 23:54:37,315 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-24 23:54:37,316 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-24 23:54:37,366 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-24 23:54:37,367 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-24 23:54:37,367 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-24 23:54:37,368 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-24 23:54:37,386 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-24 23:54:37,387 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-24 23:54:37,387 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-24 23:54:37,445 - INFO     - ~ - [31mfirst train data (en, de) tuple: [0m(b'Tel: +421 2 57 103 777\n', b'Tel: +421 2 57 103 777\n')
+2021-04-24 23:54:37,929 - INFO     - ~ - [31mfirst eval data (en, de) tuple: [0m(b'Lutropin alfa Subcutaneous use.\n', b'Pulver zur Injektion Lutropin alfa Subkutane Anwendung\n')
