@@ -1,0 +1,91 @@
+2021-04-26 01:50:27,206 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-26 01:50:27,209 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-26 01:50:27,210 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-26 01:50:27,210 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-26 01:50:27,297 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-26 01:50:27,298 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-26 01:50:27,298 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-26 01:50:27,348 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-26 01:50:27,350 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-26 01:50:27,351 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-26 01:50:27,351 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-26 01:50:27,370 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-26 01:50:27,372 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-26 01:50:27,372 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-26 01:50:27,494 - INFO     - ~ - [32mfirst train data (en, de) tuple: [0m(b'Tel: +421 2 57 103 777\n', b'Tel: +421 2 57 103 777\n')
+2021-04-26 01:50:28,037 - INFO     - ~ - [32mfirst eval data (en, de) tuple: [0m(b'Lutropin alfa Subcutaneous use.\n', b'Pulver zur Injektion Lutropin alfa Subkutane Anwendung\n')
+2021-04-26 01:50:28,152 - INFO     - ~ - [31mSingle tokenized train example input:[0m[ 2538  2248    30 12114 23184 16889     5     2 20852  6456 20592  5812
+  3932    96  5178  3851    30  7891  3550 30650  4729   992     1]
+2021-04-26 01:50:28,152 - INFO     - ~ - [31mSingle tokenized train example target:[0m[ 1872    11  3544    39  7019 17877 30432    23  6845    10 14222    47
+  4004    18 21674     5 27467  9513   920   188 10630    18  3550 30650
+  4729   992     1]
+2021-04-26 01:50:28,260 - INFO     - ~ - [32mSingle detokenized example train input: [0mDuring treatment with olanzapine, adolescents gained significantly more weight compared with adults.
+
+2021-04-26 01:50:28,363 - INFO     - ~ - [32mSingle detokenized example train target: [0mWährend der Behandlung mit Olanzapin nahmen die Jugendlichen im Vergleich zu Erwachsenen signifikant mehr Gewicht zu.
+
+2021-04-26 01:50:28,488 - INFO     - ~ - [31mtokenize('hello'): [0m[[17332   140     1]]
+2021-04-26 01:50:28,599 - INFO     - ~ - [31mdetokenize([17332, 140, 1]): [0mhello
+2021-04-26 01:50:28,646 - INFO     - ~ - input_batch data type: <class 'numpy.ndarray'>
+2021-04-26 01:50:28,646 - INFO     - ~ - target_batch data type: <class 'numpy.ndarray'>
+2021-04-26 01:50:28,646 - INFO     - ~ - input_batch shape: (32, 64)
+2021-04-26 01:50:28,646 - INFO     - ~ - target_batch shape: (32, 64)
+2021-04-26 01:50:28,761 - INFO     - ~ - [31mTHIS IS THE ENGLISH SENTENCE: 
+[0mIn the pregnant rat the AUC for calculated free drug at this dose was approximately 18 times the human AUC at a 20 mg dose.
+
+2021-04-26 01:50:28,762 - INFO     - ~ - [31mTHIS IS THE TOKENIZED VERSION OF THE ENGLISH SENTENCE: 
+[0m[   71     4  3678 17363  8195     4  9227   469    19 20605   360  5575
+    68    49 20441    53  7408  1004  1195     4   433  9227   469    68
+    13   384 23306     5 20441  3550 30650  4729   992     1     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0]
+2021-04-26 01:50:28,877 - INFO     - ~ - [31mTHIS IS THE GERMAN TRANSLATION: 
+[0mBei trächtigen Ratten war die AUC für die berechnete ungebundene Substanz bei dieser Dosis etwa 18-mal höher als die AUC beim Menschen bei einer 20 mg Dosis.
+
+2021-04-26 01:50:28,877 - INFO     - ~ - [31mTHIS IS THE TOKENIZED VERSION OF THE GERMAN TRANSLATION: 
+[0m[  752 22482 13831 15849   177   142    10  9227   469    25    10  8980
+ 24481    35  4064 20618  4290 18098     5   113   143 14327    16   780
+  1004    15  2127  3695    69    10  9227   469   683   296   113    88
+   384 23306     5 14327    16  3550 30650  4729   992     1     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0]
+2021-04-26 01:50:28,886 - INFO     - ~ - Serial_in2_out2[
+  Select[0,1,0,1]_in2_out4
+  Parallel_in2_out2[
+    Serial[
+      Embedding_33300_1024
+      LSTM_1024
+      LSTM_1024
+    ]
+    Serial[
+      ShiftRight(1)
+      Embedding_33300_1024
+      LSTM_1024
+    ]
+  ]
+  PrepareAttentionInput_in3_out4
+  Serial_in4_out2[
+    Branch_in4_out3[
+      None
+      Serial_in4_out2[
+        Parallel_in3_out3[
+          Dense_1024
+          Dense_1024
+          Dense_1024
+        ]
+        PureAttention_in4_out2
+        Dense_1024
+      ]
+    ]
+    Add_in2
+  ]
+  Select[0,2]_in3_out2
+  LSTM_1024
+  LSTM_1024
+  Dense_33300
+  LogSoftmax
+]
+2021-04-26 01:50:28,919 - WARNING  - No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2021-04-26 01:50:29,104 - INFO     - Initializing hosts and devices: host_id 0, host_count 1, is_chief 1
+2021-04-26 01:50:56,183 - INFO     - Training and evaluation metrics will be written in ./../models/.
+2021-04-26 01:51:21,765 - INFO     - Training and evaluation metrics were written in ./../models/.
