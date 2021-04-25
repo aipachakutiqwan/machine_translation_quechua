@@ -3,7 +3,6 @@ Neural Machine Translation with Attention.
 """
 from trax import layers as tl
 from trax.fastmath import numpy as fastnp
-import w1_unittest
 
 
 class AttentionModel():
@@ -14,7 +13,8 @@ class AttentionModel():
     def __init__(self):
         return None
 
-    def input_encoder_fn(self, input_vocab_size, d_model, n_encoder_layers):
+    @staticmethod
+    def input_encoder_fn(input_vocab_size, d_model, n_encoder_layers):
         """ Input encoder runs on the input sentence and creates
         activations that will be the keys and values for attention.
 
@@ -34,10 +34,8 @@ class AttentionModel():
         )
         return input_encoder
 
-    #print("test_input_encoder_fn ....")
-    #w1_unittest.test_input_encoder_fn(input_encoder_fn)
-
-    def pre_attention_decoder_fn(self, mode, target_vocab_size, d_model):
+    @staticmethod
+    def pre_attention_decoder_fn(mode, target_vocab_size, d_model):
         """ Pre-attention decoder runs on the targets and creates
         activations that are used as queries in attention.
 
@@ -60,11 +58,8 @@ class AttentionModel():
         )
         return pre_attention_decoder
 
-    #print("test_pre_attention_decoder_fn ....")
-    #w1_unittest.test_pre_attention_decoder_fn(pre_attention_decoder_fn)
-
-
-    def prepare_attention_input(self, encoder_activations, decoder_activations, inputs):
+    @staticmethod
+    def prepare_attention_input(encoder_activations, decoder_activations, inputs):
         """Prepare queries, keys, values and mask for attention.
 
         Args:
@@ -92,8 +87,6 @@ class AttentionModel():
         mask = mask + fastnp.zeros((1, 1, decoder_activations.shape[1], 1))
         return queries, keys, values, mask
 
-    #print("test_prepare_attention_input ....")
-    #w1_unittest.test_prepare_attention_input(prepare_attention_input)
 
     def nmt_attn(self, input_vocab_size=33300,
                  target_vocab_size=33300,
@@ -146,9 +139,6 @@ class AttentionModel():
                           # Log-softmax for output
                           tl.LogSoftmax())
         return model
-
-    #print("test_NMTAttn ....")
-    #w1_unittest.test_NMTAttn(nmt_attn)
 
 if __name__ == "__main__":
 
