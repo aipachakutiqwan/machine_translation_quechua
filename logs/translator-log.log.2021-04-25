@@ -1,0 +1,1756 @@
+2021-04-25 00:00:38,928 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:00:38,930 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:00:38,931 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 00:00:38,931 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 00:00:38,977 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:00:38,978 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 00:00:38,978 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 00:00:39,028 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:00:39,029 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:00:39,030 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 00:00:39,030 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 00:00:39,048 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:00:39,048 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 00:00:39,049 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 00:00:39,106 - INFO     - ~ - [31mfirst train data (en, de) tuple: [0m(b'Decreased Appetite\n', b'Verminderter Appetit\n')
+2021-04-25 00:00:39,618 - INFO     - ~ - [31mfirst eval data (en, de) tuple: [0m(b'Lutropin alfa Subcutaneous use.\n', b'Pulver zur Injektion Lutropin alfa Subkutane Anwendung\n')
+2021-04-25 00:19:16,082 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:19:16,083 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:19:16,084 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 00:19:16,085 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 00:19:16,127 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:19:16,128 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 00:19:16,128 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 00:19:16,176 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:19:16,177 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:19:16,177 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 00:19:16,178 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 00:19:16,197 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:19:16,198 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 00:19:16,198 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 00:19:16,253 - INFO     - ~ - [31mfirst train data (en, de) tuple: [0m(b'In the pregnant rat the AUC for calculated free drug at this dose was approximately 18 times the human AUC at a 20 mg dose.\n', b'Bei tr\xc3\xa4chtigen Ratten war die AUC f\xc3\xbcr die berechnete ungebundene Substanz bei dieser Dosis etwa 18-mal h\xc3\xb6her als die AUC beim Menschen bei einer 20 mg Dosis.\n')
+2021-04-25 00:19:16,722 - INFO     - ~ - [31mfirst eval data (en, de) tuple: [0m(b'Lutropin alfa Subcutaneous use.\n', b'Pulver zur Injektion Lutropin alfa Subkutane Anwendung\n')
+2021-04-25 00:19:16,830 - INFO     - ~ - [31mSingle tokenized and filtered train example input:[0m[  549   617   117   479     9  1737     4   888  3550 30650  4729   992
+     1]
+2021-04-25 00:19:16,830 - INFO     - ~ - [31mSingle tokenized and filtered train example target:[0m[  328   468  5579    61 12657  3550 30650  4729   992     1]
+2021-04-25 00:19:45,269 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:19:45,271 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:19:45,272 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 00:19:45,272 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 00:19:45,317 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:19:45,318 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 00:19:45,318 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 00:19:45,365 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:19:45,366 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:19:45,367 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 00:19:45,367 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 00:19:45,385 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:19:45,386 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 00:19:45,386 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 00:19:45,443 - INFO     - ~ - [31mfirst train data (en, de) tuple: [0m(b'Tel: +421 2 57 103 777\n', b'Tel: +421 2 57 103 777\n')
+2021-04-25 00:19:45,910 - INFO     - ~ - [31mfirst eval data (en, de) tuple: [0m(b'Lutropin alfa Subcutaneous use.\n', b'Pulver zur Injektion Lutropin alfa Subkutane Anwendung\n')
+2021-04-25 00:19:46,015 - INFO     - ~ - [31mSingle tokenized and filtered train example input:[0m[ 2326 13139   605  9214  3337  7932  1047    15  1489  4318  6304   331
+  2326 31329 11722     5 16276 14026  2801 11765 14446   363 21981   219
+ 26382   500 30650  4729   992     1]
+2021-04-25 00:19:46,015 - INFO     - ~ - [31mSingle tokenized and filtered train example target:[0m[ 2326 13139   605  9214  3337  7932  1047    15  1489  4318  6304   331
+  2326 31329 11722     5 16276 14026  2801 11765 14446   363 21981   219
+ 26382   500 30650  4729   992     1]
+2021-04-25 00:41:45,130 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:41:45,132 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:41:45,133 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 00:41:45,133 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 00:41:45,175 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:41:45,176 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 00:41:45,176 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 00:41:45,227 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:41:45,228 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:41:45,229 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 00:41:45,229 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 00:41:45,247 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:41:45,248 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 00:41:45,248 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 00:41:45,305 - INFO     - ~ - [31mfirst train data (en, de) tuple: [0m(b'These measures should help to protect the environment.\n', b'Diese Ma\xc3\x9fnahmen dienen dem Umweltschutz.\n')
+2021-04-25 00:41:45,781 - INFO     - ~ - [31mfirst eval data (en, de) tuple: [0m(b'Lutropin alfa Subcutaneous use.\n', b'Pulver zur Injektion Lutropin alfa Subkutane Anwendung\n')
+2021-04-25 00:41:45,886 - INFO     - ~ - [31mSingle tokenized train example input:[0m[   71     4  3678 17363  8195     4  9227   469    19 20605   360  5575
+    68    49 20441    53  7408  1004  1195     4   433  9227   469    68
+    13   384 23306     5 20441  3550 30650  4729   992     1]
+2021-04-25 00:41:45,886 - INFO     - ~ - [31mSingle tokenized train example target:[0m[  752 22482 13831 15849   177   142    10  9227   469    25    10  8980
+ 24481    35  4064 20618  4290 18098     5   113   143 14327    16   780
+  1004    15  2127  3695    69    10  9227   469   683   296   113    88
+   384 23306     5 14327    16  3550 30650  4729   992     1]
+2021-04-25 00:41:45,988 - INFO     - ~ - [31mSingle detokenized example train input:[0mIn the pregnant rat the AUC for calculated free drug at this dose was approximately 18 times the human AUC at a 20 mg dose.
+
+2021-04-25 00:41:46,094 - INFO     - ~ - [31mSingle detokenized example train target:[0mBei trächtigen Ratten war die AUC für die berechnete ungebundene Substanz bei dieser Dosis etwa 18-mal höher als die AUC beim Menschen bei einer 20 mg Dosis.
+
+2021-04-25 00:43:51,536 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:43:51,538 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:43:51,539 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 00:43:51,539 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 00:43:51,584 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:43:51,585 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 00:43:51,585 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 00:43:51,632 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:43:51,633 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:43:51,634 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 00:43:51,634 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 00:43:51,652 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:43:51,653 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 00:43:51,653 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 00:43:51,707 - INFO     - ~ - [31mfirst train data (en, de) tuple: [0m(b'During treatment with olanzapine, adolescents gained significantly more weight compared with adults.\n', b'W\xc3\xa4hrend der Behandlung mit Olanzapin nahmen die Jugendlichen im Vergleich zu Erwachsenen signifikant mehr Gewicht zu.\n')
+2021-04-25 00:43:52,179 - INFO     - ~ - [31mfirst eval data (en, de) tuple: [0m(b'Lutropin alfa Subcutaneous use.\n', b'Pulver zur Injektion Lutropin alfa Subkutane Anwendung\n')
+2021-04-25 00:43:52,281 - INFO     - ~ - [31mSingle tokenized train example input:[0m[14026  2801  3551 32955   135   150 14443 22008 21980   332 30650  4729
+   992     1]
+2021-04-25 00:43:52,281 - INFO     - ~ - [31mSingle tokenized train example target:[0m[14026  2801  3551 32955   135   150 14443 22008 21980   332 30650  4729
+   992     1]
+2021-04-25 00:43:52,384 - INFO     - ~ - [31mSingle detokenized example train input:[0mTel: +421 2 57 103 777
+
+2021-04-25 00:43:52,483 - INFO     - ~ - [31mSingle detokenized example train target:[0mTel: +421 2 57 103 777
+
+2021-04-25 00:43:52,582 - INFO     - ~ - [32mtokenize('hello'): [0m[[17332   140     1]]
+2021-04-25 00:43:52,681 - INFO     - ~ - [32mdetokenize([17332, 140, 1]): [0mhello
+2021-04-25 00:44:41,192 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:44:41,194 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:44:41,196 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 00:44:41,196 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 00:44:41,240 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:44:41,241 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 00:44:41,241 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 00:44:41,291 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:44:41,292 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:44:41,293 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 00:44:41,293 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 00:44:41,311 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:44:41,311 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 00:44:41,311 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 00:44:41,367 - INFO     - ~ - [31mfirst train data (en, de) tuple: [0m(b'Tel: +421 2 57 103 777\n', b'Tel: +421 2 57 103 777\n')
+2021-04-25 00:44:41,815 - INFO     - ~ - [31mfirst eval data (en, de) tuple: [0m(b'Lutropin alfa Subcutaneous use.\n', b'Pulver zur Injektion Lutropin alfa Subkutane Anwendung\n')
+2021-04-25 00:44:41,919 - INFO     - ~ - [31mSingle tokenized train example input:[0m[ 2538  2248    30 12114 23184 16889     5     2 20852  6456 20592  5812
+  3932    96  5178  3851    30  7891  3550 30650  4729   992     1]
+2021-04-25 00:44:41,919 - INFO     - ~ - [31mSingle tokenized train example target:[0m[ 1872    11  3544    39  7019 17877 30432    23  6845    10 14222    47
+  4004    18 21674     5 27467  9513   920   188 10630    18  3550 30650
+  4729   992     1]
+2021-04-25 00:44:42,027 - INFO     - ~ - [32mSingle detokenized example train input:[0mDuring treatment with olanzapine, adolescents gained significantly more weight compared with adults.
+
+2021-04-25 00:44:42,125 - INFO     - ~ - [32mSingle detokenized example train target:[0mWährend der Behandlung mit Olanzapin nahmen die Jugendlichen im Vergleich zu Erwachsenen signifikant mehr Gewicht zu.
+
+2021-04-25 00:44:42,228 - INFO     - ~ - [32mtokenize('hello'): [0m[[17332   140     1]]
+2021-04-25 00:44:42,328 - INFO     - ~ - [32mdetokenize([17332, 140, 1]): [0mhello
+2021-04-25 00:45:24,706 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:45:24,708 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:45:24,709 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 00:45:24,709 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 00:45:24,751 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:45:24,752 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 00:45:24,752 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 00:45:24,803 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:45:24,804 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:45:24,805 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 00:45:24,805 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 00:45:24,823 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:45:24,824 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 00:45:24,824 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 00:45:24,882 - INFO     - ~ - [32mfirst train data (en, de) tuple: [0m(b'In the pregnant rat the AUC for calculated free drug at this dose was approximately 18 times the human AUC at a 20 mg dose.\n', b'Bei tr\xc3\xa4chtigen Ratten war die AUC f\xc3\xbcr die berechnete ungebundene Substanz bei dieser Dosis etwa 18-mal h\xc3\xb6her als die AUC beim Menschen bei einer 20 mg Dosis.\n')
+2021-04-25 00:45:25,409 - INFO     - ~ - [32mfirst eval data (en, de) tuple: [0m(b'Lutropin alfa Subcutaneous use.\n', b'Pulver zur Injektion Lutropin alfa Subkutane Anwendung\n')
+2021-04-25 00:45:25,519 - INFO     - ~ - [31mSingle tokenized train example input:[0m[ 8569  4094  2679 32826 22527     5 30650  4729   992     1]
+2021-04-25 00:45:25,519 - INFO     - ~ - [31mSingle tokenized train example target:[0m[12647 19749    70 32826 10008     5 30650  4729   992     1]
+2021-04-25 00:45:25,630 - INFO     - ~ - [32mSingle detokenized example train input:[0mDecreased Appetite
+
+2021-04-25 00:45:25,742 - INFO     - ~ - [32mSingle detokenized example train target:[0mVerminderter Appetit
+
+2021-04-25 00:45:25,852 - INFO     - ~ - [31mtokenize('hello'): [0m[[17332   140     1]]
+2021-04-25 00:45:25,970 - INFO     - ~ - [31mdetokenize([17332, 140, 1]): [0mhello
+2021-04-25 00:46:15,200 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:46:15,202 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:46:15,203 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 00:46:15,203 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 00:46:15,245 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:46:15,246 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 00:46:15,246 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 00:46:15,294 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:46:15,295 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:46:15,296 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 00:46:15,296 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 00:46:15,314 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 00:46:15,315 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 00:46:15,315 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 00:46:15,370 - INFO     - ~ - [32mfirst train data (en, de) tuple: [0m(b'Do not put the pre-filled pen next to the freezer compartment of your refrigerator or a freezer pack.\n', b'Legen Sie den Fertigpen nicht in die N\xc3\xa4he des Gefrierfachs oder eines K\xc3\xbchlelements.\n')
+2021-04-25 00:46:15,885 - INFO     - ~ - [32mfirst eval data (en, de) tuple: [0m(b'Lutropin alfa Subcutaneous use.\n', b'Pulver zur Injektion Lutropin alfa Subkutane Anwendung\n')
+2021-04-25 00:46:15,995 - INFO     - ~ - [31mSingle tokenized train example input:[0m[ 2538  2248    30 12114 23184 16889     5     2 20852  6456 20592  5812
+  3932    96  5178  3851    30  7891  3550 30650  4729   992     1]
+2021-04-25 00:46:15,995 - INFO     - ~ - [31mSingle tokenized train example target:[0m[ 1872    11  3544    39  7019 17877 30432    23  6845    10 14222    47
+  4004    18 21674     5 27467  9513   920   188 10630    18  3550 30650
+  4729   992     1]
+2021-04-25 00:46:16,115 - INFO     - ~ - [32mSingle detokenized example train input: [0mDuring treatment with olanzapine, adolescents gained significantly more weight compared with adults.
+
+2021-04-25 00:46:16,218 - INFO     - ~ - [32mSingle detokenized example train target: [0mWährend der Behandlung mit Olanzapin nahmen die Jugendlichen im Vergleich zu Erwachsenen signifikant mehr Gewicht zu.
+
+2021-04-25 00:46:16,324 - INFO     - ~ - [31mtokenize('hello'): [0m[[17332   140     1]]
+2021-04-25 00:46:16,429 - INFO     - ~ - [31mdetokenize([17332, 140, 1]): [0mhello
+2021-04-25 02:15:53,217 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:15:53,219 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:15:53,220 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 02:15:53,220 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 02:15:53,263 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:15:53,264 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 02:15:53,264 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 02:15:53,317 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:15:53,318 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:15:53,319 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 02:15:53,319 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 02:15:53,336 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:15:53,337 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 02:15:53,337 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 02:15:53,393 - INFO     - ~ - [32mfirst train data (en, de) tuple: [0m(b'Tel: +421 2 57 103 777\n', b'Tel: +421 2 57 103 777\n')
+2021-04-25 02:15:53,897 - INFO     - ~ - [32mfirst eval data (en, de) tuple: [0m(b'Lutropin alfa Subcutaneous use.\n', b'Pulver zur Injektion Lutropin alfa Subkutane Anwendung\n')
+2021-04-25 02:15:54,005 - INFO     - ~ - [31mSingle tokenized train example input:[0m[ 2538  2248    30 12114 23184 16889     5     2 20852  6456 20592  5812
+  3932    96  5178  3851    30  7891  3550 30650  4729   992     1]
+2021-04-25 02:15:54,005 - INFO     - ~ - [31mSingle tokenized train example target:[0m[ 1872    11  3544    39  7019 17877 30432    23  6845    10 14222    47
+  4004    18 21674     5 27467  9513   920   188 10630    18  3550 30650
+  4729   992     1]
+2021-04-25 02:15:54,118 - INFO     - ~ - [32mSingle detokenized example train input: [0mDuring treatment with olanzapine, adolescents gained significantly more weight compared with adults.
+
+2021-04-25 02:15:54,216 - INFO     - ~ - [32mSingle detokenized example train target: [0mWährend der Behandlung mit Olanzapin nahmen die Jugendlichen im Vergleich zu Erwachsenen signifikant mehr Gewicht zu.
+
+2021-04-25 02:15:54,326 - INFO     - ~ - [31mtokenize('hello'): [0m[[17332   140     1]]
+2021-04-25 02:15:54,442 - INFO     - ~ - [31mdetokenize([17332, 140, 1]): [0mhello
+2021-04-25 02:16:37,065 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:16:37,066 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:16:37,067 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 02:16:37,068 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 02:16:37,111 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:16:37,111 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 02:16:37,112 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 02:16:37,162 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:16:37,163 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:16:37,163 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 02:16:37,163 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 02:16:37,182 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:16:37,183 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 02:16:37,183 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 02:16:37,241 - INFO     - ~ - [32mfirst train data (en, de) tuple: [0m(b'In the pregnant rat the AUC for calculated free drug at this dose was approximately 18 times the human AUC at a 20 mg dose.\n', b'Bei tr\xc3\xa4chtigen Ratten war die AUC f\xc3\xbcr die berechnete ungebundene Substanz bei dieser Dosis etwa 18-mal h\xc3\xb6her als die AUC beim Menschen bei einer 20 mg Dosis.\n')
+2021-04-25 02:16:37,701 - INFO     - ~ - [32mfirst eval data (en, de) tuple: [0m(b'Lutropin alfa Subcutaneous use.\n', b'Pulver zur Injektion Lutropin alfa Subkutane Anwendung\n')
+2021-04-25 02:16:37,804 - INFO     - ~ - [31mSingle tokenized train example input:[0m[ 8569  4094  2679 32826 22527     5 30650  4729   992     1]
+2021-04-25 02:16:37,804 - INFO     - ~ - [31mSingle tokenized train example target:[0m[12647 19749    70 32826 10008     5 30650  4729   992     1]
+2021-04-25 02:16:37,906 - INFO     - ~ - [32mSingle detokenized example train input: [0mDecreased Appetite
+
+2021-04-25 02:16:38,004 - INFO     - ~ - [32mSingle detokenized example train target: [0mVerminderter Appetit
+
+2021-04-25 02:16:38,103 - INFO     - ~ - [31mtokenize('hello'): [0m[[17332   140     1]]
+2021-04-25 02:16:38,202 - INFO     - ~ - [31mdetokenize([17332, 140, 1]): [0mhello
+2021-04-25 02:16:38,247 - INFO     - ~ - input_batch data type: <class 'numpy.ndarray'>
+2021-04-25 02:16:38,247 - INFO     - ~ - target_batch data type: <class 'numpy.ndarray'>
+2021-04-25 02:17:22,624 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:17:22,626 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:17:22,627 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 02:17:22,627 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 02:17:22,670 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:17:22,671 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 02:17:22,672 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 02:17:22,719 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:17:22,720 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:17:22,721 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 02:17:22,721 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 02:17:22,739 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:17:22,740 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 02:17:22,740 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 02:17:22,795 - INFO     - ~ - [32mfirst train data (en, de) tuple: [0m(b'Tel: +421 2 57 103 777\n', b'Tel: +421 2 57 103 777\n')
+2021-04-25 02:17:23,265 - INFO     - ~ - [32mfirst eval data (en, de) tuple: [0m(b'Lutropin alfa Subcutaneous use.\n', b'Pulver zur Injektion Lutropin alfa Subkutane Anwendung\n')
+2021-04-25 02:17:23,371 - INFO     - ~ - [31mSingle tokenized train example input:[0m[ 2538  2248    30 12114 23184 16889     5     2 20852  6456 20592  5812
+  3932    96  5178  3851    30  7891  3550 30650  4729   992     1]
+2021-04-25 02:17:23,371 - INFO     - ~ - [31mSingle tokenized train example target:[0m[ 1872    11  3544    39  7019 17877 30432    23  6845    10 14222    47
+  4004    18 21674     5 27467  9513   920   188 10630    18  3550 30650
+  4729   992     1]
+2021-04-25 02:17:23,475 - INFO     - ~ - [32mSingle detokenized example train input: [0mDuring treatment with olanzapine, adolescents gained significantly more weight compared with adults.
+
+2021-04-25 02:17:23,576 - INFO     - ~ - [32mSingle detokenized example train target: [0mWährend der Behandlung mit Olanzapin nahmen die Jugendlichen im Vergleich zu Erwachsenen signifikant mehr Gewicht zu.
+
+2021-04-25 02:17:23,677 - INFO     - ~ - [31mtokenize('hello'): [0m[[17332   140     1]]
+2021-04-25 02:17:23,777 - INFO     - ~ - [31mdetokenize([17332, 140, 1]): [0mhello
+2021-04-25 02:17:23,821 - INFO     - ~ - input_batch data type: <class 'numpy.ndarray'>
+2021-04-25 02:17:23,821 - INFO     - ~ - target_batch data type: <class 'numpy.ndarray'>
+2021-04-25 02:17:55,042 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:17:55,044 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:17:55,045 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 02:17:55,045 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 02:17:55,092 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:17:55,093 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 02:17:55,093 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 02:17:55,141 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:17:55,142 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:17:55,143 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 02:17:55,143 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 02:17:55,162 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:17:55,162 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 02:17:55,163 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 02:17:55,218 - INFO     - ~ - [32mfirst train data (en, de) tuple: [0m(b'Decreased Appetite\n', b'Verminderter Appetit\n')
+2021-04-25 02:17:55,706 - INFO     - ~ - [32mfirst eval data (en, de) tuple: [0m(b'Lutropin alfa Subcutaneous use.\n', b'Pulver zur Injektion Lutropin alfa Subkutane Anwendung\n')
+2021-04-25 02:17:55,805 - INFO     - ~ - [31mSingle tokenized train example input:[0m[  549   617   117   479     9  1737     4   888  3550 30650  4729   992
+     1]
+2021-04-25 02:17:55,805 - INFO     - ~ - [31mSingle tokenized train example target:[0m[  328   468  5579    61 12657  3550 30650  4729   992     1]
+2021-04-25 02:17:55,905 - INFO     - ~ - [32mSingle detokenized example train input: [0mThese measures should help to protect the environment.
+
+2021-04-25 02:17:56,004 - INFO     - ~ - [32mSingle detokenized example train target: [0mDiese Maßnahmen dienen dem Umweltschutz.
+
+2021-04-25 02:17:56,100 - INFO     - ~ - [31mtokenize('hello'): [0m[[17332   140     1]]
+2021-04-25 02:17:56,197 - INFO     - ~ - [31mdetokenize([17332, 140, 1]): [0mhello
+2021-04-25 02:17:56,242 - INFO     - ~ - input_batch data type: <class 'numpy.ndarray'>
+2021-04-25 02:17:56,242 - INFO     - ~ - target_batch data type: <class 'numpy.ndarray'>
+2021-04-25 02:17:56,242 - INFO     - ~ - input_batch shape: (32, 64)
+2021-04-25 02:17:56,242 - INFO     - ~ - target_batch shape: (32, 64)
+2021-04-25 02:17:56,340 - INFO     - ~ - [31mTHIS IS THE ENGLISH SENTENCE: 
+[0mIn the pregnant rat the AUC for calculated free drug at this dose was approximately 18 times the human AUC at a 20 mg dose.
+
+2021-04-25 02:17:56,340 - INFO     - ~ - [31mTHIS IS THE TOKENIZED VERSION OF THE ENGLISH SENTENCE: 
+[0m[   71     4  3678 17363  8195     4  9227   469    19 20605   360  5575
+    68    49 20441    53  7408  1004  1195     4   433  9227   469    68
+    13   384 23306     5 20441  3550 30650  4729   992     1     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0]
+2021-04-25 02:17:56,437 - INFO     - ~ - [31mTHIS IS THE GERMAN TRANSLATION: 
+[0mBei trächtigen Ratten war die AUC für die berechnete ungebundene Substanz bei dieser Dosis etwa 18-mal höher als die AUC beim Menschen bei einer 20 mg Dosis.
+
+2021-04-25 02:17:56,437 - INFO     - ~ - [31mTHIS IS THE TOKENIZED VERSION OF THE GERMAN TRANSLATION: 
+[0m[  752 22482 13831 15849   177   142    10  9227   469    25    10  8980
+ 24481    35  4064 20618  4290 18098     5   113   143 14327    16   780
+  1004    15  2127  3695    69    10  9227   469   683   296   113    88
+   384 23306     5 14327    16  3550 30650  4729   992     1     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0]
+2021-04-25 02:17:56,447 - INFO     - ~ - Serial_in3_out2[
+  Select[0,1,0,1]_in2_out4
+  Parallel_in2_out2[
+    Serial[
+      Embedding_33300_1024
+      LSTM_1024
+      LSTM_1024
+    ]
+    Serial[
+      ShiftRight(1)
+      Embedding_33300_1024
+      LSTM_1024
+    ]
+  ]
+  PrepareAttentionInput_in4_out4
+  Serial_in4_out2[
+    Branch_in4_out3[
+      None
+      Serial_in4_out2[
+        Parallel_in3_out3[
+          Dense_1024
+          Dense_1024
+          Dense_1024
+        ]
+        PureAttention_in4_out2
+        Dense_1024
+      ]
+    ]
+    Add_in2
+  ]
+  Select[0,2]_in3_out2
+  LSTM_1024
+  LSTM_1024
+  Dense_33300
+  LogSoftmax
+]
+2021-04-25 02:32:47,376 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:32:47,378 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:32:47,379 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 02:32:47,379 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 02:32:47,423 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:32:47,424 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 02:32:47,424 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 02:32:47,472 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:32:47,474 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:32:47,474 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 02:32:47,474 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 02:32:47,492 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:32:47,493 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 02:32:47,493 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 02:32:47,548 - INFO     - ~ - [32mfirst train data (en, de) tuple: [0m(b'CLINICAL PARTICULARS\n', b'KLINISCHE ANGABEN\n')
+2021-04-25 02:32:48,040 - INFO     - ~ - [32mfirst eval data (en, de) tuple: [0m(b'Lutropin alfa Subcutaneous use.\n', b'Pulver zur Injektion Lutropin alfa Subkutane Anwendung\n')
+2021-04-25 02:32:48,146 - INFO     - ~ - [31mSingle tokenized train example input:[0m[ 2326 13139   605  9214  3337  7932  1047    15  1489  4318  6304   331
+  2326 31329 11722     5 16276 14026  2801 11765 14446   363 21981   219
+ 26382   500 30650  4729   992     1]
+2021-04-25 02:32:48,147 - INFO     - ~ - [31mSingle tokenized train example target:[0m[ 2326 13139   605  9214  3337  7932  1047    15  1489  4318  6304   331
+  2326 31329 11722     5 16276 14026  2801 11765 14446   363 21981   219
+ 26382   500 30650  4729   992     1]
+2021-04-25 02:32:48,247 - INFO     - ~ - [32mSingle detokenized example train input: [0mSverige BRISTOL-MYERS SQUIBB AB Tel: + 46 8 704 71 00
+
+2021-04-25 02:32:48,344 - INFO     - ~ - [32mSingle detokenized example train target: [0mSverige BRISTOL-MYERS SQUIBB AB Tel: + 46 8 704 71 00
+
+2021-04-25 02:32:48,454 - INFO     - ~ - [31mtokenize('hello'): [0m[[17332   140     1]]
+2021-04-25 02:32:48,556 - INFO     - ~ - [31mdetokenize([17332, 140, 1]): [0mhello
+2021-04-25 02:32:48,603 - INFO     - ~ - input_batch data type: <class 'numpy.ndarray'>
+2021-04-25 02:32:48,603 - INFO     - ~ - target_batch data type: <class 'numpy.ndarray'>
+2021-04-25 02:32:48,603 - INFO     - ~ - input_batch shape: (32, 64)
+2021-04-25 02:32:48,603 - INFO     - ~ - target_batch shape: (32, 64)
+2021-04-25 02:32:48,707 - INFO     - ~ - [31mTHIS IS THE ENGLISH SENTENCE: 
+[0mConsequently, a direct effect (slight toxicity), or an indirect effect (low palatability) cannot be excluded.
+
+2021-04-25 02:32:48,707 - INFO     - ~ - [31mTHIS IS THE TOKENIZED VERSION OF THE ENGLISH SENTENCE: 
+[0m[14352     2    13  1590  1520    50 13263 19168   537   224    66    27
+ 17257  1520    50   764 11024 14686  6127    80   442    32 12384  3550
+ 30650  4729   992     1     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0]
+2021-04-25 02:32:48,810 - INFO     - ~ - [31mTHIS IS THE GERMAN TRANSLATION: 
+[0mDeshalb kann ein direkter Effekt (leichte Toxizität) oder ein indirekter Effekt (Geschmacksbeeinträchtigung) nicht ausgeschlossen werden.
+
+2021-04-25 02:32:48,810 - INFO     - ~ - [31mTHIS IS THE TOKENIZED VERSION OF THE GERMAN TRANSLATION: 
+[0m[ 1563   136    54 29751     5 11654    50 23414  5349  5175  6737  4212
+    80    97    54  8847 10984   667 11654    50 32078  5220 10314 26565
+   147    80    44 17828    58  3550 30650  4729   992     1     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0]
+2021-04-25 02:32:48,819 - INFO     - ~ - Serial_in3_out2[
+  Select[0,1,0,1]_in2_out4
+  Parallel_in2_out2[
+    Serial[
+      Embedding_33300_1024
+      LSTM_1024
+      LSTM_1024
+    ]
+    Serial[
+      ShiftRight(1)
+      Embedding_33300_1024
+      LSTM_1024
+    ]
+  ]
+  PrepareAttentionInput_in4_out4
+  Serial_in4_out2[
+    Branch_in4_out3[
+      None
+      Serial_in4_out2[
+        Parallel_in3_out3[
+          Dense_1024
+          Dense_1024
+          Dense_1024
+        ]
+        PureAttention_in4_out2
+        Dense_1024
+      ]
+    ]
+    Add_in2
+  ]
+  Select[0,2]_in3_out2
+  LSTM_1024
+  LSTM_1024
+  Dense_33300
+  LogSoftmax
+]
+2021-04-25 02:51:16,524 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:51:16,526 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:51:16,527 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 02:51:16,527 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 02:51:16,570 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:51:16,571 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 02:51:16,571 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 02:51:16,620 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:51:16,621 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:51:16,622 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 02:51:16,622 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 02:51:16,640 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:51:16,641 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 02:51:16,641 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 02:51:16,696 - INFO     - ~ - [32mfirst train data (en, de) tuple: [0m(b'During treatment with olanzapine, adolescents gained significantly more weight compared with adults.\n', b'W\xc3\xa4hrend der Behandlung mit Olanzapin nahmen die Jugendlichen im Vergleich zu Erwachsenen signifikant mehr Gewicht zu.\n')
+2021-04-25 02:51:17,164 - INFO     - ~ - [32mfirst eval data (en, de) tuple: [0m(b'Lutropin alfa Subcutaneous use.\n', b'Pulver zur Injektion Lutropin alfa Subkutane Anwendung\n')
+2021-04-25 02:51:17,266 - INFO     - ~ - [31mSingle tokenized train example input:[0m[14026  2801  3551 32955   135   150 14443 22008 21980   332 30650  4729
+   992     1]
+2021-04-25 02:51:17,267 - INFO     - ~ - [31mSingle tokenized train example target:[0m[14026  2801  3551 32955   135   150 14443 22008 21980   332 30650  4729
+   992     1]
+2021-04-25 02:51:17,383 - INFO     - ~ - [32mSingle detokenized example train input: [0mTel: +421 2 57 103 777
+
+2021-04-25 02:51:17,507 - INFO     - ~ - [32mSingle detokenized example train target: [0mTel: +421 2 57 103 777
+
+2021-04-25 02:51:17,615 - INFO     - ~ - [31mtokenize('hello'): [0m[[17332   140     1]]
+2021-04-25 02:51:17,728 - INFO     - ~ - [31mdetokenize([17332, 140, 1]): [0mhello
+2021-04-25 02:51:17,775 - INFO     - ~ - input_batch data type: <class 'numpy.ndarray'>
+2021-04-25 02:51:17,775 - INFO     - ~ - target_batch data type: <class 'numpy.ndarray'>
+2021-04-25 02:51:17,775 - INFO     - ~ - input_batch shape: (32, 64)
+2021-04-25 02:51:17,775 - INFO     - ~ - target_batch shape: (32, 64)
+2021-04-25 02:51:17,881 - INFO     - ~ - [31mTHIS IS THE ENGLISH SENTENCE: 
+[0mPneumonia, increased body temperature, lethargy, erythema, visual hallucinations and urinary incontinence were observed commonly.
+
+2021-04-25 02:51:17,881 - INFO     - ~ - [31mTHIS IS THE TOKENIZED VERSION OF THE ENGLISH SENTENCE: 
+[0m[ 2655  5243  9452    13     2  1474  1617 13207     2  6858 23769   105
+     2  6517 16379 20373     2 19011 23777  7633 28794  1473     8  8670
+  6086   105 12266  5193  3712   152 12116 24445  3550 30650  4729   992
+     1     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0]
+2021-04-25 02:51:17,985 - INFO     - ~ - [31mTHIS IS THE GERMAN TRANSLATION: 
+[0mPneumonie, erhöhte Körpertemperatur, Lethargie, Erythem, visuelle Halluzinationen und Harninkontinenz wurden häufig beobachtet.
+
+2021-04-25 02:51:17,985 - INFO     - ~ - [31mTHIS IS THE TOKENIZED VERSION OF THE GERMAN TRANSLATION: 
+[0m[ 2655  5243  9452    35     2 10298     5 12793 27191     2  9817 23769
+  1090     2 16107 16379  1012     2  7151 11893     5 18477 19074 28233
+    12  5135  8232 17164  8911     5   302  2020 17791     5  3550 30650
+  4729   992     1     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0]
+2021-04-25 02:51:17,994 - INFO     - ~ - Serial_in3_out2[
+  Select[0,1,0,1]_in2_out4
+  Parallel_in2_out2[
+    Serial[
+      Embedding_33300_1024
+      LSTM_1024
+      LSTM_1024
+    ]
+    Serial[
+      ShiftRight(1)
+      Embedding_33300_1024
+      LSTM_1024
+    ]
+  ]
+  PrepareAttentionInput_in4_out4
+  Serial_in4_out2[
+    Branch_in4_out3[
+      None
+      Serial_in4_out2[
+        Parallel_in3_out3[
+          Dense_1024
+          Dense_1024
+          Dense_1024
+        ]
+        PureAttention_in4_out2
+        Dense_1024
+      ]
+    ]
+    Add_in2
+  ]
+  Select[0,2]_in3_out2
+  LSTM_1024
+  LSTM_1024
+  Dense_33300
+  LogSoftmax
+]
+2021-04-25 02:57:15,979 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:57:15,980 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:57:15,981 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 02:57:15,982 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 02:57:16,024 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:57:16,025 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 02:57:16,025 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 02:57:16,075 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:57:16,076 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:57:16,076 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 02:57:16,076 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 02:57:16,094 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:57:16,095 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 02:57:16,095 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 02:57:16,151 - INFO     - ~ - [32mfirst train data (en, de) tuple: [0m(b'In the pregnant rat the AUC for calculated free drug at this dose was approximately 18 times the human AUC at a 20 mg dose.\n', b'Bei tr\xc3\xa4chtigen Ratten war die AUC f\xc3\xbcr die berechnete ungebundene Substanz bei dieser Dosis etwa 18-mal h\xc3\xb6her als die AUC beim Menschen bei einer 20 mg Dosis.\n')
+2021-04-25 02:57:16,651 - INFO     - ~ - [32mfirst eval data (en, de) tuple: [0m(b'Lutropin alfa Subcutaneous use.\n', b'Pulver zur Injektion Lutropin alfa Subkutane Anwendung\n')
+2021-04-25 02:57:16,756 - INFO     - ~ - [31mSingle tokenized train example input:[0m[ 8569  4094  2679 32826 22527     5 30650  4729   992     1]
+2021-04-25 02:57:16,756 - INFO     - ~ - [31mSingle tokenized train example target:[0m[12647 19749    70 32826 10008     5 30650  4729   992     1]
+2021-04-25 02:57:16,862 - INFO     - ~ - [32mSingle detokenized example train input: [0mDecreased Appetite
+
+2021-04-25 02:57:16,967 - INFO     - ~ - [32mSingle detokenized example train target: [0mVerminderter Appetit
+
+2021-04-25 02:57:17,068 - INFO     - ~ - [31mtokenize('hello'): [0m[[17332   140     1]]
+2021-04-25 02:57:17,166 - INFO     - ~ - [31mdetokenize([17332, 140, 1]): [0mhello
+2021-04-25 02:57:17,212 - INFO     - ~ - input_batch data type: <class 'numpy.ndarray'>
+2021-04-25 02:57:17,212 - INFO     - ~ - target_batch data type: <class 'numpy.ndarray'>
+2021-04-25 02:57:17,212 - INFO     - ~ - input_batch shape: (32, 64)
+2021-04-25 02:57:17,212 - INFO     - ~ - target_batch shape: (32, 64)
+2021-04-25 02:57:17,323 - INFO     - ~ - [31mTHIS IS THE ENGLISH SENTENCE: 
+[0mContact your doctor immediately if you become pregnant, think you might be pregnant or are planning to become pregnant while taking LYRICA.
+
+2021-04-25 02:57:17,323 - INFO     - ~ - [31mTHIS IS THE TOKENIZED VERSION OF THE ENGLISH SENTENCE: 
+[0m[21758   139  8937  2626   175    72   449  3678 17363     2   597    72
+   616    32  3678 17363    66    31  3376     9   449  3678 17363   459
+   981  2474  4318 31318   176  3550 30650  4729   992     1     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0]
+2021-04-25 02:57:17,427 - INFO     - ~ - [31mTHIS IS THE GERMAN TRANSLATION: 
+[0mSuchen Sie sofort Ihren Arzt auf, wenn Sie während der Behandlung mit LYRICA schwanger werden, glauben schwanger zu sein oder eine Schwangerschaft planen.
+
+2021-04-25 02:57:17,427 - INFO     - ~ - [31mTHIS IS THE TOKENIZED VERSION OF THE GERMAN TRANSLATION: 
+[0m[15775    23    67  5210  1786 32806    37     2   157    67   408    11
+  3544    39  2474  4318 31318   176 16718 16989    58     2  3294 16718
+ 16989    18   171    97    41 21145  3393  2121 11011  3550 30650  4729
+   992     1     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0]
+2021-04-25 02:57:17,437 - INFO     - ~ - Serial_in3_out2[
+  Select[0,1,0,1]_in2_out4
+  Parallel_in2_out2[
+    Serial[
+      Embedding_33300_1024
+      LSTM_1024
+      LSTM_1024
+    ]
+    Serial[
+      ShiftRight(1)
+      Embedding_33300_1024
+      LSTM_1024
+    ]
+  ]
+  PrepareAttentionInput_in4_out4
+  Serial_in4_out2[
+    Branch_in4_out3[
+      None
+      Serial_in4_out2[
+        Parallel_in3_out3[
+          Dense_1024
+          Dense_1024
+          Dense_1024
+        ]
+        PureAttention_in4_out2
+        Dense_1024
+      ]
+    ]
+    Add_in2
+  ]
+  Select[0,2]_in3_out2
+  LSTM_1024
+  LSTM_1024
+  Dense_33300
+  LogSoftmax
+]
+2021-04-25 02:57:17,440 - WARNING  - No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2021-04-25 02:58:36,979 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:58:36,980 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:58:36,981 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 02:58:36,982 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 02:58:37,027 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:58:37,028 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 02:58:37,028 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 02:58:37,076 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:58:37,077 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:58:37,078 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 02:58:37,078 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 02:58:37,097 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 02:58:37,098 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 02:58:37,098 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 02:58:37,155 - INFO     - ~ - [32mfirst train data (en, de) tuple: [0m(b'Tel: +421 2 57 103 777\n', b'Tel: +421 2 57 103 777\n')
+2021-04-25 02:58:37,622 - INFO     - ~ - [32mfirst eval data (en, de) tuple: [0m(b'Lutropin alfa Subcutaneous use.\n', b'Pulver zur Injektion Lutropin alfa Subkutane Anwendung\n')
+2021-04-25 02:58:37,724 - INFO     - ~ - [31mSingle tokenized train example input:[0m[15963  3622  5964 32583  7444 10673 11544  4327  6699 18265 18266 12828
+  1047  4947  6998 11449  8462 11721  4673 25490   493 18789 15963  3622
+  5964 32583  7444 12827  9227  7933 10547  3337  4205 10617 11612 21414
+ 10673  3234  7008  6261  4891 16225   493 21658  4936 18090  2600  3234
+  4526 18788     5 30650  4729   992     1]
+2021-04-25 02:58:37,724 - INFO     - ~ - [31mSingle tokenized train example target:[0m[ 5951  4916 18726     5  9192  7046 18207  6999  7502  5106  9167  6304
+  6655 14014  8489   331     2  9192    50  4718   493    80  2290  6731
+  1013  4718   493  9204  4206 16071 25961  8002  6710   493 10468  7107
+ 30992 10547 30995  6665  2600  3337   693    50  4891 31536  3651 30650
+  4729   992     1]
+2021-04-25 02:58:37,824 - INFO     - ~ - [32mSingle detokenized example train input: [0mMANUFACTURER OF THE BIOLOGICAL ACTIVE SUBSTANCE AND MANUFACTURING AUTHORISATION HOLDER RESPONSIBLE FOR BATCH RELEASE
+
+2021-04-25 02:58:37,923 - INFO     - ~ - [32mSingle detokenized example train target: [0mINHABER DER HERSTELLUNGSERLAUBNIS, DER (DIE) FÜR DIE CHARGENFREIGABE VERANTWORTLICH IST (SIND)
+
+2021-04-25 02:58:38,021 - INFO     - ~ - [31mtokenize('hello'): [0m[[17332   140     1]]
+2021-04-25 02:58:38,119 - INFO     - ~ - [31mdetokenize([17332, 140, 1]): [0mhello
+2021-04-25 02:58:38,161 - INFO     - ~ - input_batch data type: <class 'numpy.ndarray'>
+2021-04-25 02:58:38,161 - INFO     - ~ - target_batch data type: <class 'numpy.ndarray'>
+2021-04-25 02:58:38,161 - INFO     - ~ - input_batch shape: (32, 64)
+2021-04-25 02:58:38,162 - INFO     - ~ - target_batch shape: (32, 64)
+2021-04-25 02:58:38,259 - INFO     - ~ - [31mTHIS IS THE ENGLISH SENTENCE: 
+[0mDo not put the pre-filled pen next to the freezer compartment of your refrigerator or a freezer pack.
+
+2021-04-25 02:58:38,259 - INFO     - ~ - [31mTHIS IS THE TOKENIZED VERSION OF THE ENGLISH SENTENCE: 
+[0m[ 2937    48   604     4  2960    15  7797 12088   473     9     4 20216
+    70 13814  8689  1389     7   139  4773 16766 22939    76    66    13
+ 20216    70  8781     5  3550 30650  4729   992     1     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0]
+2021-04-25 02:58:38,356 - INFO     - ~ - [31mTHIS IS THE GERMAN TRANSLATION: 
+[0mLegen Sie den Fertigpen nicht in die Nähe des Gefrierfachs oder eines Kühlelements.
+
+2021-04-25 02:58:38,357 - INFO     - ~ - [31mTHIS IS THE TOKENIZED VERSION OF THE GERMAN TRANSLATION: 
+[0m[25593     5    67    20 14297 12088    44     6    10  1487    38  8542
+ 10079  9567    14    97   225 21417  8863  6859  7347  3550 30650  4729
+   992     1     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0]
+2021-04-25 02:58:38,367 - INFO     - ~ - Serial_in3_out2[
+  Select[0,1,0,1]_in2_out4
+  Parallel_in2_out2[
+    Serial[
+      Embedding_33300_1024
+      LSTM_1024
+      LSTM_1024
+    ]
+    Serial[
+      ShiftRight(1)
+      Embedding_33300_1024
+      LSTM_1024
+    ]
+  ]
+  PrepareAttentionInput_in4_out4
+  Serial_in4_out2[
+    Branch_in4_out3[
+      None
+      Serial_in4_out2[
+        Parallel_in3_out3[
+          Dense_1024
+          Dense_1024
+          Dense_1024
+        ]
+        PureAttention_in4_out2
+        Dense_1024
+      ]
+    ]
+    Add_in2
+  ]
+  Select[0,2]_in3_out2
+  LSTM_1024
+  LSTM_1024
+  Dense_33300
+  LogSoftmax
+]
+2021-04-25 02:58:38,371 - WARNING  - No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2021-04-25 03:01:12,262 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 03:01:12,264 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 03:01:12,265 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 03:01:12,266 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 03:01:12,311 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 03:01:12,312 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 03:01:12,312 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 03:01:12,360 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 03:01:12,361 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 03:01:12,362 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 03:01:12,362 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 03:01:12,379 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 03:01:12,381 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 03:01:12,381 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 03:01:12,439 - INFO     - ~ - [32mfirst train data (en, de) tuple: [0m(b'In the pregnant rat the AUC for calculated free drug at this dose was approximately 18 times the human AUC at a 20 mg dose.\n', b'Bei tr\xc3\xa4chtigen Ratten war die AUC f\xc3\xbcr die berechnete ungebundene Substanz bei dieser Dosis etwa 18-mal h\xc3\xb6her als die AUC beim Menschen bei einer 20 mg Dosis.\n')
+2021-04-25 03:01:12,918 - INFO     - ~ - [32mfirst eval data (en, de) tuple: [0m(b'Lutropin alfa Subcutaneous use.\n', b'Pulver zur Injektion Lutropin alfa Subkutane Anwendung\n')
+2021-04-25 03:01:13,020 - INFO     - ~ - [31mSingle tokenized train example input:[0m[ 8569  4094  2679 32826 22527     5 30650  4729   992     1]
+2021-04-25 03:01:13,020 - INFO     - ~ - [31mSingle tokenized train example target:[0m[12647 19749    70 32826 10008     5 30650  4729   992     1]
+2021-04-25 03:01:13,122 - INFO     - ~ - [32mSingle detokenized example train input: [0mDecreased Appetite
+
+2021-04-25 03:01:13,223 - INFO     - ~ - [32mSingle detokenized example train target: [0mVerminderter Appetit
+
+2021-04-25 03:01:13,320 - INFO     - ~ - [31mtokenize('hello'): [0m[[17332   140     1]]
+2021-04-25 03:01:13,419 - INFO     - ~ - [31mdetokenize([17332, 140, 1]): [0mhello
+2021-04-25 03:01:13,465 - INFO     - ~ - input_batch data type: <class 'numpy.ndarray'>
+2021-04-25 03:01:13,465 - INFO     - ~ - target_batch data type: <class 'numpy.ndarray'>
+2021-04-25 03:01:13,465 - INFO     - ~ - input_batch shape: (32, 64)
+2021-04-25 03:01:13,465 - INFO     - ~ - target_batch shape: (32, 64)
+2021-04-25 03:01:13,564 - INFO     - ~ - [31mTHIS IS THE ENGLISH SENTENCE: 
+[0mAnimal studies do not indicate direct or indirect harmful effects with respect to pregnancy, embryonal/ foetal development, parturition or postnatal development (see section 5.3).
+
+2021-04-25 03:01:13,564 - INFO     - ~ - [31mTHIS IS THE TOKENIZED VERSION OF THE ENGLISH SENTENCE: 
+[0m[26316  2127  4398   127    48  6470  1590    66 17257  7778  1743    30
+   997     9  3678 29055  1611     2 24146   278  6722 29265  5732   396
+     2  2825 22477   596    66  3575 28236   215   396    50   372  2745
+   194     3   199 33022 30650  4729   992     1     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0]
+2021-04-25 03:01:13,663 - INFO     - ~ - [31mTHIS IS THE GERMAN TRANSLATION: 
+[0mTierexperimentelle Studien lassen nicht auf direkte oder indirekte schädliche Auswirkungen auf Schwangerschaft, embryonale/fetale Entwicklung, Geburt oder postnatale Entwicklung schließen (siehe Abschnitt 5.3).
+
+2021-04-25 03:01:13,664 - INFO     - ~ - [31mTHIS IS THE TOKENIZED VERSION OF THE GERMAN TRANSLATION: 
+[0m[ 5623 24019  6166 15779   530    44    37  8341    97  8847 10984   191
+ 27529  1191    37 21145  3393  2121     2 24146  2985   123 17458  2985
+   398     2 16066     5    97  3575 28236   347   398  3800    50  4588
+ 10729   194     3   199 33022 30650  4729   992     1     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0]
+2021-04-25 03:01:13,673 - INFO     - ~ - Serial_in3_out2[
+  Select[0,1,0,1]_in2_out4
+  Parallel_in2_out2[
+    Serial[
+      Embedding_33300_1024
+      LSTM_1024
+      LSTM_1024
+    ]
+    Serial[
+      ShiftRight(1)
+      Embedding_33300_1024
+      LSTM_1024
+    ]
+  ]
+  PrepareAttentionInput_in4_out4
+  Serial_in4_out2[
+    Branch_in4_out3[
+      None
+      Serial_in4_out2[
+        Parallel_in3_out3[
+          Dense_1024
+          Dense_1024
+          Dense_1024
+        ]
+        PureAttention_in4_out2
+        Dense_1024
+      ]
+    ]
+    Add_in2
+  ]
+  Select[0,2]_in3_out2
+  LSTM_1024
+  LSTM_1024
+  Dense_33300
+  LogSoftmax
+]
+2021-04-25 03:01:13,676 - WARNING  - No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2021-04-25 03:02:21,483 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 03:02:21,485 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 03:02:21,486 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 03:02:21,486 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 03:02:21,529 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 03:02:21,530 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 03:02:21,530 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 03:02:21,580 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 03:02:21,581 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 03:02:21,582 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 03:02:21,582 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 03:02:21,602 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 03:02:21,602 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 03:02:21,602 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 03:02:21,658 - INFO     - ~ - [32mfirst train data (en, de) tuple: [0m(b'In the pregnant rat the AUC for calculated free drug at this dose was approximately 18 times the human AUC at a 20 mg dose.\n', b'Bei tr\xc3\xa4chtigen Ratten war die AUC f\xc3\xbcr die berechnete ungebundene Substanz bei dieser Dosis etwa 18-mal h\xc3\xb6her als die AUC beim Menschen bei einer 20 mg Dosis.\n')
+2021-04-25 03:02:22,142 - INFO     - ~ - [32mfirst eval data (en, de) tuple: [0m(b'Lutropin alfa Subcutaneous use.\n', b'Pulver zur Injektion Lutropin alfa Subkutane Anwendung\n')
+2021-04-25 03:02:22,242 - INFO     - ~ - [31mSingle tokenized train example input:[0m[ 8569  4094  2679 32826 22527     5 30650  4729   992     1]
+2021-04-25 03:02:22,242 - INFO     - ~ - [31mSingle tokenized train example target:[0m[12647 19749    70 32826 10008     5 30650  4729   992     1]
+2021-04-25 03:02:22,343 - INFO     - ~ - [32mSingle detokenized example train input: [0mDecreased Appetite
+
+2021-04-25 03:02:22,440 - INFO     - ~ - [32mSingle detokenized example train target: [0mVerminderter Appetit
+
+2021-04-25 03:02:22,538 - INFO     - ~ - [31mtokenize('hello'): [0m[[17332   140     1]]
+2021-04-25 03:02:22,634 - INFO     - ~ - [31mdetokenize([17332, 140, 1]): [0mhello
+2021-04-25 03:02:22,679 - INFO     - ~ - input_batch data type: <class 'numpy.ndarray'>
+2021-04-25 03:02:22,679 - INFO     - ~ - target_batch data type: <class 'numpy.ndarray'>
+2021-04-25 03:02:22,679 - INFO     - ~ - input_batch shape: (32, 64)
+2021-04-25 03:02:22,680 - INFO     - ~ - target_batch shape: (32, 64)
+2021-04-25 03:02:22,776 - INFO     - ~ - [31mTHIS IS THE ENGLISH SENTENCE: 
+[0mIf is in the dose window and the dose knob will not turn: • The cartridge in your BYETTA pen may not have enough liquid to deliver a full dose.
+
+2021-04-25 03:02:22,777 - INFO     - ~ - [31mTHIS IS THE TOKENIZED VERSION OF THE ENGLISH SENTENCE: 
+[0m[  269    16     6     4 20441  4384     8     4 20441 15082   868    56
+    48  1550  2801  8079    29  8965 22849     5     6   139  1548  4318
+  8025  4673     5 12088   247    48    43   959 13499     5     9  3848
+    13   634 20441  3550 30650  4729   992     1     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0]
+2021-04-25 03:02:22,875 - INFO     - ~ - [31mTHIS IS THE GERMAN TRANSLATION: 
+[0mWenn im Dosierfenster erscheint und der Dosierknopf sich nicht drehen lässt: • Die Patrone in Ihrem BYETTA Pen enthält möglicherweise nicht mehr genug Flüssigkeit, um eine volle Dosis abzugeben.
+
+2021-04-25 03:02:22,876 - INFO     - ~ - [31mTHIS IS THE TOKENIZED VERSION OF THE GERMAN TRANSLATION: 
+[0m[  293    47 14327  3694 23987  4835    12    11 14327  3694 15082 14892
+    51    44 24249  1794  2801  8079    57  7478 13297    35     6  2476
+  1548  4318  8025  4673     5 21254  2141  2441    44   188  2267 32165
+  5207 11166     2    77    41  6362 14327    16 30618  1171  3550 30650
+  4729   992     1     0     0     0     0     0     0     0     0     0
+     0     0     0     0]
+2021-04-25 03:02:22,886 - INFO     - ~ - Serial_in3_out2[
+  Select[0,1,0,1]_in2_out4
+  Parallel_in2_out2[
+    Serial[
+      Embedding_33300_1024
+      LSTM_1024
+      LSTM_1024
+    ]
+    Serial[
+      ShiftRight(1)
+      Embedding_33300_1024
+      LSTM_1024
+    ]
+  ]
+  PrepareAttentionInput_in4_out4
+  Serial_in4_out2[
+    Branch_in4_out3[
+      None
+      Serial_in4_out2[
+        Parallel_in3_out3[
+          Dense_1024
+          Dense_1024
+          Dense_1024
+        ]
+        PureAttention_in4_out2
+        Dense_1024
+      ]
+    ]
+    Add_in2
+  ]
+  Select[0,2]_in3_out2
+  LSTM_1024
+  LSTM_1024
+  Dense_33300
+  LogSoftmax
+]
+2021-04-25 03:02:22,889 - WARNING  - No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2021-04-25 03:02:23,050 - INFO     - Initializing hosts and devices: host_id 0, host_count 1, is_chief 1
+2021-04-25 10:57:18,707 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 10:57:18,710 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 10:57:18,711 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 10:57:18,711 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 10:57:18,755 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 10:57:18,756 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 10:57:18,756 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 10:57:18,808 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 10:57:18,809 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 10:57:18,810 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 10:57:18,810 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 10:57:18,829 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 10:57:18,830 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 10:57:18,831 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 10:57:18,891 - INFO     - ~ - [32mfirst train data (en, de) tuple: [0m(b'Tel: +421 2 57 103 777\n', b'Tel: +421 2 57 103 777\n')
+2021-04-25 10:57:19,382 - INFO     - ~ - [32mfirst eval data (en, de) tuple: [0m(b'Lutropin alfa Subcutaneous use.\n', b'Pulver zur Injektion Lutropin alfa Subkutane Anwendung\n')
+2021-04-25 10:57:19,491 - INFO     - ~ - [31mSingle tokenized train example input:[0m[ 2538  2248    30 12114 23184 16889     5     2 20852  6456 20592  5812
+  3932    96  5178  3851    30  7891  3550 30650  4729   992     1]
+2021-04-25 10:57:19,491 - INFO     - ~ - [31mSingle tokenized train example target:[0m[ 1872    11  3544    39  7019 17877 30432    23  6845    10 14222    47
+  4004    18 21674     5 27467  9513   920   188 10630    18  3550 30650
+  4729   992     1]
+2021-04-25 10:57:19,609 - INFO     - ~ - [32mSingle detokenized example train input: [0mDuring treatment with olanzapine, adolescents gained significantly more weight compared with adults.
+
+2021-04-25 10:57:19,725 - INFO     - ~ - [32mSingle detokenized example train target: [0mWährend der Behandlung mit Olanzapin nahmen die Jugendlichen im Vergleich zu Erwachsenen signifikant mehr Gewicht zu.
+
+2021-04-25 10:57:19,833 - INFO     - ~ - [31mtokenize('hello'): [0m[[17332   140     1]]
+2021-04-25 10:57:19,937 - INFO     - ~ - [31mdetokenize([17332, 140, 1]): [0mhello
+2021-04-25 10:57:19,980 - INFO     - ~ - input_batch data type: <class 'numpy.ndarray'>
+2021-04-25 10:57:19,980 - INFO     - ~ - target_batch data type: <class 'numpy.ndarray'>
+2021-04-25 10:57:19,980 - INFO     - ~ - input_batch shape: (32, 64)
+2021-04-25 10:57:19,980 - INFO     - ~ - target_batch shape: (32, 64)
+2021-04-25 10:57:20,084 - INFO     - ~ - [31mTHIS IS THE ENGLISH SENTENCE: 
+[0mCombination antiretroviral therapy has been associated with the redistribution of body fat (lipodystrophy) in HIV patients.
+
+2021-04-25 10:57:20,085 - INFO     - ~ - [31mTHIS IS THE TOKENIZED VERSION OF THE ENGLISH SENTENCE: 
+[0m[32523  2257  2646 13309  5718   278 14667    63   110  3133    30     4
+ 22916     7  1617 17466    50 12199 14938  3657 22485 11140    80     6
+  4188  4996  3550 30650  4729   992     1     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0]
+2021-04-25 10:57:20,188 - INFO     - ~ - [31mTHIS IS THE GERMAN TRANSLATION: 
+[0mDie antiretrovirale Kombinationstherapie wurde mit einer Fettumverteilung (Lipodystrophie) bei HIV-Patienten in Verbindung gebracht.
+
+2021-04-25 10:57:20,188 - INFO     - ~ - [31mTHIS IS THE TOKENIZED VERSION OF THE GERMAN TRANSLATION: 
+[0m[   57  2646 13309  5718  2985 18400 30175  9314 19198     5   169    39
+    88 25944  3018  9969    50 25575 14938  3657 22485 11146     5    80
+   113  4188    15  5122     6  1838  2000  3550 30650  4729   992     1
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0]
+2021-04-25 10:57:20,197 - INFO     - ~ - Serial_in3_out2[
+  Select[0,1,0,1]_in2_out4
+  Parallel_in2_out2[
+    Serial[
+      Embedding_33300_1024
+      LSTM_1024
+      LSTM_1024
+    ]
+    Serial[
+      ShiftRight(1)
+      Embedding_33300_1024
+      LSTM_1024
+    ]
+  ]
+  PrepareAttentionInput_in4_out4
+  Serial_in4_out2[
+    Branch_in4_out3[
+      None
+      Serial_in4_out2[
+        Parallel_in3_out3[
+          Dense_1024
+          Dense_1024
+          Dense_1024
+        ]
+        PureAttention_in4_out2
+        Dense_1024
+      ]
+    ]
+    Add_in2
+  ]
+  Select[0,2]_in3_out2
+  LSTM_1024
+  LSTM_1024
+  Dense_33300
+  LogSoftmax
+]
+2021-04-25 10:57:20,202 - WARNING  - No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2021-04-25 10:57:20,373 - INFO     - Initializing hosts and devices: host_id 0, host_count 1, is_chief 1
+2021-04-25 11:09:18,746 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:09:18,748 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:09:18,749 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 11:09:18,749 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 11:09:18,794 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:09:18,795 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 11:09:18,795 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 11:09:18,854 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:09:18,856 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:09:18,857 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 11:09:18,857 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 11:09:18,876 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:09:18,877 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 11:09:18,877 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 11:09:18,942 - INFO     - ~ - [32mfirst train data (en, de) tuple: [0m(b'Tel: +421 2 57 103 777\n', b'Tel: +421 2 57 103 777\n')
+2021-04-25 11:09:19,461 - INFO     - ~ - [32mfirst eval data (en, de) tuple: [0m(b'Lutropin alfa Subcutaneous use.\n', b'Pulver zur Injektion Lutropin alfa Subkutane Anwendung\n')
+2021-04-25 11:09:19,572 - INFO     - ~ - [31mSingle tokenized train example input:[0m[ 2326 13139   605  9214  3337  7932  1047    15  1489  4318  6304   331
+  2326 31329 11722     5 16276 14026  2801 11765 14446   363 21981   219
+ 26382   500 30650  4729   992     1]
+2021-04-25 11:09:19,572 - INFO     - ~ - [31mSingle tokenized train example target:[0m[ 2326 13139   605  9214  3337  7932  1047    15  1489  4318  6304   331
+  2326 31329 11722     5 16276 14026  2801 11765 14446   363 21981   219
+ 26382   500 30650  4729   992     1]
+2021-04-25 11:09:19,675 - INFO     - ~ - [32mSingle detokenized example train input: [0mSverige BRISTOL-MYERS SQUIBB AB Tel: + 46 8 704 71 00
+
+2021-04-25 11:09:19,781 - INFO     - ~ - [32mSingle detokenized example train target: [0mSverige BRISTOL-MYERS SQUIBB AB Tel: + 46 8 704 71 00
+
+2021-04-25 11:09:19,886 - INFO     - ~ - [31mtokenize('hello'): [0m[[17332   140     1]]
+2021-04-25 11:09:19,987 - INFO     - ~ - [31mdetokenize([17332, 140, 1]): [0mhello
+2021-04-25 11:09:20,037 - INFO     - ~ - input_batch data type: <class 'numpy.ndarray'>
+2021-04-25 11:09:20,037 - INFO     - ~ - target_batch data type: <class 'numpy.ndarray'>
+2021-04-25 11:09:20,037 - INFO     - ~ - input_batch shape: (32, 64)
+2021-04-25 11:09:20,037 - INFO     - ~ - target_batch shape: (32, 64)
+2021-04-25 11:09:20,148 - INFO     - ~ - [31mTHIS IS THE ENGLISH SENTENCE: 
+[0mAdverse reactions reported during clinical trials or following the marketing use of Rebetol with pegylated interferon alfa-2b or interferon alfa-2b injection
+
+2021-04-25 11:09:20,149 - INFO     - ~ - [31mTHIS IS THE TOKENIZED VERSION OF THE ENGLISH SENTENCE: 
+[0m[26345 11231     5 10991  4981   522 15481 19154    66  1011     4  5521
+   231     7  4335 11342  6078    30 16903 26665  1037  2511  4832    22
+  5876 29345    15  3165   868    66  2511  4832    22  5876 29345    15
+  3165   868 28751 30650  4729   992     1     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0]
+2021-04-25 11:09:20,252 - INFO     - ~ - [31mTHIS IS THE GERMAN TRANSLATION: 
+[0mIn klinischen Studien oder nach Markteinführung berichtete Nebenwirkungen bei Verwendung von Rebetol mit pegyliertem Interferon alfa-2b oder Interferon alfa-2b
+
+2021-04-25 11:09:20,252 - INFO     - ~ - [31mTHIS IS THE TOKENIZED VERSION OF THE GERMAN TRANSLATION: 
+[0m[   71 28609 15779    97   126  3002 29615  3182 24625  7022 18966   113
+  2524    21  4335 11342  6078    39 16903 16381  3694 14678  3335  4832
+    22  5876 29345    15  3165   868    97  3335  4832    22  5876 29345
+    15  3165   868 30650  4729   992     1     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0]
+2021-04-25 11:09:20,261 - INFO     - ~ - Serial_in2_out2[
+  Select[0,1,0,1]_in2_out4
+  Parallel_in2_out2[
+    Serial[
+      Embedding_33300_1024
+      LSTM_1024
+      LSTM_1024
+    ]
+    Serial[
+      ShiftRight(1)
+      Embedding_33300_1024
+      LSTM_1024
+    ]
+  ]
+  PrepareAttentionInput_in3_out4
+  Serial_in4_out2[
+    Branch_in4_out3[
+      None
+      Serial_in4_out2[
+        Parallel_in3_out3[
+          Dense_1024
+          Dense_1024
+          Dense_1024
+        ]
+        PureAttention_in4_out2
+        Dense_1024
+      ]
+    ]
+    Add_in2
+  ]
+  Select[0,2]_in3_out2
+  LSTM_1024
+  LSTM_1024
+  Dense_33300
+  LogSoftmax
+]
+2021-04-25 11:09:20,265 - WARNING  - No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2021-04-25 11:09:20,440 - INFO     - Initializing hosts and devices: host_id 0, host_count 1, is_chief 1
+2021-04-25 11:09:44,471 - INFO     - Training and evaluation metrics will be written in ./../models/.
+2021-04-25 11:09:50,481 - INFO     - Training and evaluation metrics were written in ./../models/.
+2021-04-25 11:13:00,038 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:13:00,040 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:13:00,041 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 11:13:00,042 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 11:13:00,087 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:13:00,088 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 11:13:00,088 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 11:13:00,147 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:13:00,148 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:13:00,150 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 11:13:00,150 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 11:13:00,174 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:13:00,174 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 11:13:00,175 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 11:13:00,236 - INFO     - ~ - [32mfirst train data (en, de) tuple: [0m(b'Do not put the pre-filled pen next to the freezer compartment of your refrigerator or a freezer pack.\n', b'Legen Sie den Fertigpen nicht in die N\xc3\xa4he des Gefrierfachs oder eines K\xc3\xbchlelements.\n')
+2021-04-25 11:13:00,705 - INFO     - ~ - [32mfirst eval data (en, de) tuple: [0m(b'Lutropin alfa Subcutaneous use.\n', b'Pulver zur Injektion Lutropin alfa Subkutane Anwendung\n')
+2021-04-25 11:13:00,822 - INFO     - ~ - [31mSingle tokenized train example input:[0m[14026  2801  3551 32955   135   150 14443 22008 21980   332 30650  4729
+   992     1]
+2021-04-25 11:13:00,822 - INFO     - ~ - [31mSingle tokenized train example target:[0m[14026  2801  3551 32955   135   150 14443 22008 21980   332 30650  4729
+   992     1]
+2021-04-25 11:13:00,927 - INFO     - ~ - [32mSingle detokenized example train input: [0mTel: +421 2 57 103 777
+
+2021-04-25 11:13:01,028 - INFO     - ~ - [32mSingle detokenized example train target: [0mTel: +421 2 57 103 777
+
+2021-04-25 11:13:01,128 - INFO     - ~ - [31mtokenize('hello'): [0m[[17332   140     1]]
+2021-04-25 11:13:01,228 - INFO     - ~ - [31mdetokenize([17332, 140, 1]): [0mhello
+2021-04-25 11:13:01,275 - INFO     - ~ - input_batch data type: <class 'numpy.ndarray'>
+2021-04-25 11:13:01,275 - INFO     - ~ - target_batch data type: <class 'numpy.ndarray'>
+2021-04-25 11:13:01,275 - INFO     - ~ - input_batch shape: (32, 64)
+2021-04-25 11:13:01,275 - INFO     - ~ - target_batch shape: (32, 64)
+2021-04-25 11:13:01,378 - INFO     - ~ - [31mTHIS IS THE ENGLISH SENTENCE: 
+[0mIn male rats dosed for 2 years with varenicline, there was a dose-related increase in the incidence of hibernoma (tumour of the brown fat).
+
+2021-04-25 11:13:01,378 - INFO     - ~ - [31mTHIS IS THE TOKENIZED VERSION OF THE ENGLISH SENTENCE: 
+[0m[   71  9466 19518  2976  2679    19   150   223    30  9978 24120   768
+     2   138    53    13 20441    15  1110   696     6     4  8849 29816
+     7  3481  4309  8794    13    50  9996   106     7     4  7388 10811
+ 17466 33022 30650  4729   992     1     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0]
+2021-04-25 11:13:01,479 - INFO     - ~ - [31mTHIS IS THE GERMAN TRANSLATION: 
+[0mBei männlichen Ratten, die über 2 Jahre Vareniclin erhielten, erhöhte sich die Inzidenz von Hibernomen (braunes Lipom) dosisabhängig.
+
+2021-04-25 11:13:01,480 - INFO     - ~ - [31mTHIS IS THE TOKENIZED VERSION OF THE GERMAN TRANSLATION: 
+[0m[  752 28257    23 15849   177     2    10    99   150   506  6603 24120
+  5781 15337     2 10298     5    51    10  3633  6738 24330     5    21
+  7516  4309 28186    50  4854  5187    14 25575 10135    80  2976 27452
+  5612  3550 30650  4729   992     1     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0]
+2021-04-25 11:13:01,489 - INFO     - ~ - Serial_in2_out2[
+  Select[0,1,0,1]_in2_out4
+  Parallel_in2_out2[
+    Serial[
+      Embedding_33300_1024
+      LSTM_1024
+      LSTM_1024
+    ]
+    Serial[
+      ShiftRight(1)
+      Embedding_33300_1024
+      LSTM_1024
+    ]
+  ]
+  PrepareAttentionInput_in3_out4
+  Serial_in4_out2[
+    Branch_in4_out3[
+      None
+      Serial_in4_out2[
+        Parallel_in3_out3[
+          Dense_1024
+          Dense_1024
+          Dense_1024
+        ]
+        PureAttention_in4_out2
+        Dense_1024
+      ]
+    ]
+    Add_in2
+  ]
+  Select[0,2]_in3_out2
+  LSTM_1024
+  LSTM_1024
+  Dense_33300
+  LogSoftmax
+]
+2021-04-25 11:13:01,494 - WARNING  - No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2021-04-25 11:13:01,658 - INFO     - Initializing hosts and devices: host_id 0, host_count 1, is_chief 1
+2021-04-25 11:13:24,993 - INFO     - Training and evaluation metrics will be written in ./../models/.
+2021-04-25 11:13:31,017 - INFO     - Training and evaluation metrics were written in ./../models/.
+2021-04-25 11:14:46,461 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:14:46,463 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:14:46,464 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 11:14:46,464 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 11:14:46,507 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:14:46,508 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 11:14:46,508 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 11:14:46,557 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:14:46,558 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:14:46,559 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 11:14:46,559 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 11:14:46,578 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:14:46,578 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 11:14:46,579 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 11:14:46,637 - INFO     - ~ - [32mfirst train data (en, de) tuple: [0m(b'Tel: +421 2 57 103 777\n', b'Tel: +421 2 57 103 777\n')
+2021-04-25 11:14:47,113 - INFO     - ~ - [32mfirst eval data (en, de) tuple: [0m(b'Lutropin alfa Subcutaneous use.\n', b'Pulver zur Injektion Lutropin alfa Subkutane Anwendung\n')
+2021-04-25 11:14:47,223 - INFO     - ~ - [31mSingle tokenized train example input:[0m[15963  3622  5964 32583  7444 10673 11544  4327  6699 18265 18266 12828
+  1047  4947  6998 11449  8462 11721  4673 25490   493 18789 15963  3622
+  5964 32583  7444 12827  9227  7933 10547  3337  4205 10617 11612 21414
+ 10673  3234  7008  6261  4891 16225   493 21658  4936 18090  2600  3234
+  4526 18788     5 30650  4729   992     1]
+2021-04-25 11:14:47,223 - INFO     - ~ - [31mSingle tokenized train example target:[0m[ 5951  4916 18726     5  9192  7046 18207  6999  7502  5106  9167  6304
+  6655 14014  8489   331     2  9192    50  4718   493    80  2290  6731
+  1013  4718   493  9204  4206 16071 25961  8002  6710   493 10468  7107
+ 30992 10547 30995  6665  2600  3337   693    50  4891 31536  3651 30650
+  4729   992     1]
+2021-04-25 11:14:47,327 - INFO     - ~ - [32mSingle detokenized example train input: [0mMANUFACTURER OF THE BIOLOGICAL ACTIVE SUBSTANCE AND MANUFACTURING AUTHORISATION HOLDER RESPONSIBLE FOR BATCH RELEASE
+
+2021-04-25 11:14:47,431 - INFO     - ~ - [32mSingle detokenized example train target: [0mINHABER DER HERSTELLUNGSERLAUBNIS, DER (DIE) FÜR DIE CHARGENFREIGABE VERANTWORTLICH IST (SIND)
+
+2021-04-25 11:14:47,533 - INFO     - ~ - [31mtokenize('hello'): [0m[[17332   140     1]]
+2021-04-25 11:14:47,635 - INFO     - ~ - [31mdetokenize([17332, 140, 1]): [0mhello
+2021-04-25 11:14:47,680 - INFO     - ~ - input_batch data type: <class 'numpy.ndarray'>
+2021-04-25 11:14:47,680 - INFO     - ~ - target_batch data type: <class 'numpy.ndarray'>
+2021-04-25 11:14:47,680 - INFO     - ~ - input_batch shape: (32, 64)
+2021-04-25 11:14:47,680 - INFO     - ~ - target_batch shape: (32, 64)
+2021-04-25 11:14:47,781 - INFO     - ~ - [31mTHIS IS THE ENGLISH SENTENCE: 
+[0meither product Non-nucleoside Analogue Reverse Transcriptase Inhibitors (NNRTIs) Efavirenz 600 mg 750 mg TID QD
+
+2021-04-25 11:14:47,782 - INFO     - ~ - [31mTHIS IS THE TOKENIZED VERSION OF THE ENGLISH SENTENCE: 
+[0m[ 1237  1533  5926    15  4790 11320  6429   129 21931  2808 31258 11231
+     5  9741 17671  8697    35  3633 28956  1792    50  3150 25488  6998
+    14    80 14321 12552 27709     5 11756 23306     5 12998   266 23306
+     5  6998   538  6246   538 30650  4729   992     1     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0]
+2021-04-25 11:14:47,882 - INFO     - ~ - [31mTHIS IS THE GERMAN TRANSLATION: 
+[0mEfavirenz 600 mg einmal täglich
+
+2021-04-25 11:14:47,882 - INFO     - ~ - [31mTHIS IS THE TOKENIZED VERSION OF THE GERMAN TRANSLATION: 
+[0m[14321 12552 27709     5 11756 23306     5   776  4574 30650  4729   992
+     1     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0]
+2021-04-25 11:14:47,891 - INFO     - ~ - Serial_in2_out2[
+  Select[0,1,0,1]_in2_out4
+  Parallel_in2_out2[
+    Serial[
+      Embedding_33300_1024
+      LSTM_1024
+      LSTM_1024
+    ]
+    Serial[
+      ShiftRight(1)
+      Embedding_33300_1024
+      LSTM_1024
+    ]
+  ]
+  PrepareAttentionInput_in3_out4
+  Serial_in4_out2[
+    Branch_in4_out3[
+      None
+      Serial_in4_out2[
+        Parallel_in3_out3[
+          Dense_1024
+          Dense_1024
+          Dense_1024
+        ]
+        PureAttention_in4_out2
+        Dense_1024
+      ]
+    ]
+    Add_in2
+  ]
+  Select[0,2]_in3_out2
+  LSTM_1024
+  LSTM_1024
+  Dense_33300
+  LogSoftmax
+]
+2021-04-25 11:14:47,895 - WARNING  - No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2021-04-25 11:15:33,934 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:15:33,936 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:15:33,937 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 11:15:33,937 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 11:15:33,980 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:15:33,981 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 11:15:33,981 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 11:15:34,035 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:15:34,036 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:15:34,037 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 11:15:34,037 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 11:15:34,056 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:15:34,057 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 11:15:34,057 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 11:15:34,112 - INFO     - ~ - [32mfirst train data (en, de) tuple: [0m(b'Tel: +421 2 57 103 777\n', b'Tel: +421 2 57 103 777\n')
+2021-04-25 11:15:34,601 - INFO     - ~ - [32mfirst eval data (en, de) tuple: [0m(b'Lutropin alfa Subcutaneous use.\n', b'Pulver zur Injektion Lutropin alfa Subkutane Anwendung\n')
+2021-04-25 11:15:34,711 - INFO     - ~ - [31mSingle tokenized train example input:[0m[ 2937    48   604     4  2960    15  7797 12088   473     9     4 20216
+    70 13814  8689  1389     7   139  4773 16766 22939    76    66    13
+ 20216    70  8781     5  3550 30650  4729   992     1]
+2021-04-25 11:15:34,711 - INFO     - ~ - [31mSingle tokenized train example target:[0m[25593     5    67    20 14297 12088    44     6    10  1487    38  8542
+ 10079  9567    14    97   225 21417  8863  6859  7347  3550 30650  4729
+   992     1]
+2021-04-25 11:15:34,814 - INFO     - ~ - [32mSingle detokenized example train input: [0mDo not put the pre-filled pen next to the freezer compartment of your refrigerator or a freezer pack.
+
+2021-04-25 11:15:34,918 - INFO     - ~ - [32mSingle detokenized example train target: [0mLegen Sie den Fertigpen nicht in die Nähe des Gefrierfachs oder eines Kühlelements.
+
+2021-04-25 11:15:35,023 - INFO     - ~ - [31mtokenize('hello'): [0m[[17332   140     1]]
+2021-04-25 11:15:35,129 - INFO     - ~ - [31mdetokenize([17332, 140, 1]): [0mhello
+2021-04-25 11:15:35,177 - INFO     - ~ - input_batch data type: <class 'numpy.ndarray'>
+2021-04-25 11:15:35,178 - INFO     - ~ - target_batch data type: <class 'numpy.ndarray'>
+2021-04-25 11:15:35,178 - INFO     - ~ - input_batch shape: (32, 64)
+2021-04-25 11:15:35,178 - INFO     - ~ - target_batch shape: (32, 64)
+2021-04-25 11:15:35,283 - INFO     - ~ - [31mTHIS IS THE ENGLISH SENTENCE: 
+[0mGalantamine and donepezil do not show a clinically relevant effect on the pharmacokinetics of risperidone and on the active antipsychotic fraction.
+
+2021-04-25 11:15:35,283 - INFO     - ~ - [31mTHIS IS THE TOKENIZED VERSION OF THE ENGLISH SENTENCE: 
+[0m[32114  6083 10166     8  5305  4472 24010   215   127    48  1026    13
+ 20571  1805  3031  1520    22     4  6826  7211  3853  8834 20293  1978
+     7  6804  5499   866     8    22     4  2373  2646 10108  2390 29246
+  3550 30650  4729   992     1     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0]
+2021-04-25 11:15:35,383 - INFO     - ~ - [31mTHIS IS THE GERMAN TRANSLATION: 
+[0mGalantamin und Donepezil zeigen keine klinisch relevanten Auswirkungen auf die Pharmakokinetik von Risperidon und der aktiven antipsychotischen Fraktion.
+
+2021-04-25 11:15:35,383 - INFO     - ~ - [31mTHIS IS THE TOKENIZED VERSION OF THE GERMAN TRANSLATION: 
+[0m[32114  6083  5251    12 18623  4472 24010   215  1628   249 23489  1212
+ 12039    23  1191    37    10 15881 23486  6469  7174    21 10513  5499
+  1859    12    11 17916  2646 10108  3021  1083  3550 30650  4729   992
+     1     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0]
+2021-04-25 11:15:35,394 - INFO     - ~ - Serial_in2_out2[
+  Select[0,1,0,1]_in2_out4
+  Parallel_in2_out2[
+    Serial[
+      Embedding_33300_1024
+      LSTM_1024
+      LSTM_1024
+    ]
+    Serial[
+      ShiftRight(1)
+      Embedding_33300_1024
+      LSTM_1024
+    ]
+  ]
+  PrepareAttentionInput_in3_out4
+  Serial_in4_out2[
+    Branch_in4_out3[
+      None
+      Serial_in4_out2[
+        Parallel_in3_out3[
+          Dense_1024
+          Dense_1024
+          Dense_1024
+        ]
+        PureAttention_in4_out2
+        Dense_1024
+      ]
+    ]
+    Add_in2
+  ]
+  Select[0,2]_in3_out2
+  LSTM_1024
+  LSTM_1024
+  Dense_33300
+  LogSoftmax
+]
+2021-04-25 11:15:35,398 - WARNING  - No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2021-04-25 11:15:48,337 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:15:48,339 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:15:48,340 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 11:15:48,340 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 11:15:48,382 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:15:48,384 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 11:15:48,384 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 11:15:48,436 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:15:48,437 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:15:48,437 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 11:15:48,437 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 11:15:48,456 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:15:48,457 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 11:15:48,457 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 11:15:48,512 - INFO     - ~ - [32mfirst train data (en, de) tuple: [0m(b'Tel: +421 2 57 103 777\n', b'Tel: +421 2 57 103 777\n')
+2021-04-25 11:15:49,041 - INFO     - ~ - [32mfirst eval data (en, de) tuple: [0m(b'Lutropin alfa Subcutaneous use.\n', b'Pulver zur Injektion Lutropin alfa Subkutane Anwendung\n')
+2021-04-25 11:15:49,147 - INFO     - ~ - [31mSingle tokenized train example input:[0m[ 2326 13139   605  9214  3337  7932  1047    15  1489  4318  6304   331
+  2326 31329 11722     5 16276 14026  2801 11765 14446   363 21981   219
+ 26382   500 30650  4729   992     1]
+2021-04-25 11:15:49,147 - INFO     - ~ - [31mSingle tokenized train example target:[0m[ 2326 13139   605  9214  3337  7932  1047    15  1489  4318  6304   331
+  2326 31329 11722     5 16276 14026  2801 11765 14446   363 21981   219
+ 26382   500 30650  4729   992     1]
+2021-04-25 11:15:49,259 - INFO     - ~ - [32mSingle detokenized example train input: [0mSverige BRISTOL-MYERS SQUIBB AB Tel: + 46 8 704 71 00
+
+2021-04-25 11:15:49,364 - INFO     - ~ - [32mSingle detokenized example train target: [0mSverige BRISTOL-MYERS SQUIBB AB Tel: + 46 8 704 71 00
+
+2021-04-25 11:15:49,468 - INFO     - ~ - [31mtokenize('hello'): [0m[[17332   140     1]]
+2021-04-25 11:15:49,569 - INFO     - ~ - [31mdetokenize([17332, 140, 1]): [0mhello
+2021-04-25 11:15:49,613 - INFO     - ~ - input_batch data type: <class 'numpy.ndarray'>
+2021-04-25 11:15:49,613 - INFO     - ~ - target_batch data type: <class 'numpy.ndarray'>
+2021-04-25 11:15:49,613 - INFO     - ~ - input_batch shape: (32, 64)
+2021-04-25 11:15:49,613 - INFO     - ~ - target_batch shape: (32, 64)
+2021-04-25 11:15:49,714 - INFO     - ~ - [31mTHIS IS THE ENGLISH SENTENCE: 
+[0ms categories: very common (≥ 1/ 10); common (≥ 1/ 100, < 1/ 10).
+
+2021-04-25 11:15:49,714 - INFO     - ~ - [31mTHIS IS THE TOKENIZED VERSION OF THE ENGLISH SENTENCE: 
+[0m[   14  2060    64   173   568  5426 30650  4048  5701  3771   115   135
+  6722   349  8076   568  5426 30650  4048  5701  3771   115   135  6722
+   812  2294 33287   913   135  6722   349 33022 30650  4729   992     1
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0]
+2021-04-25 11:15:49,819 - INFO     - ~ - [31mTHIS IS THE GERMAN TRANSLATION: 
+[0maufgeführt: sehr häufig (≥ 1/10); häufig (≥ 1/100, < 1/10).
+
+2021-04-25 11:15:49,819 - INFO     - ~ - [31mTHIS IS THE TOKENIZED VERSION OF THE GERMAN TRANSLATION: 
+[0m[ 9675    64   200  2020  5426 30650  4048  5701  3771   115   135   123
+   349  8076  2020  5426 30650  4048  5701  3771   115   135   123   812
+  2294 33287   913   135   123   349 33022 30650  4729   992     1     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0]
+2021-04-25 11:15:49,829 - INFO     - ~ - Serial_in2_out2[
+  Select[0,1,0,1]_in2_out4
+  Parallel_in2_out2[
+    Serial[
+      Embedding_33300_1024
+      LSTM_1024
+      LSTM_1024
+    ]
+    Serial[
+      ShiftRight(1)
+      Embedding_33300_1024
+      LSTM_1024
+    ]
+  ]
+  PrepareAttentionInput_in3_out4
+  Serial_in4_out2[
+    Branch_in4_out3[
+      None
+      Serial_in4_out2[
+        Parallel_in3_out3[
+          Dense_1024
+          Dense_1024
+          Dense_1024
+        ]
+        PureAttention_in4_out2
+        Dense_1024
+      ]
+    ]
+    Add_in2
+  ]
+  Select[0,2]_in3_out2
+  LSTM_1024
+  LSTM_1024
+  Dense_33300
+  LogSoftmax
+]
+2021-04-25 11:15:49,834 - WARNING  - No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2021-04-25 11:15:50,001 - INFO     - Initializing hosts and devices: host_id 0, host_count 1, is_chief 1
+2021-04-25 11:16:13,307 - INFO     - Training and evaluation metrics will be written in ./../models/.
+2021-04-25 11:16:18,982 - INFO     - Training and evaluation metrics were written in ./../models/.
+2021-04-25 11:17:21,523 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:17:21,526 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:17:21,527 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 11:17:21,527 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 11:17:21,569 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:17:21,570 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 11:17:21,570 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 11:17:21,625 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:17:21,626 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:17:21,627 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 11:17:21,627 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 11:17:21,646 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:17:21,646 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 11:17:21,646 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 11:17:21,702 - INFO     - ~ - [32mfirst train data (en, de) tuple: [0m(b'Do not put the pre-filled pen next to the freezer compartment of your refrigerator or a freezer pack.\n', b'Legen Sie den Fertigpen nicht in die N\xc3\xa4he des Gefrierfachs oder eines K\xc3\xbchlelements.\n')
+2021-04-25 11:17:22,187 - INFO     - ~ - [32mfirst eval data (en, de) tuple: [0m(b'Lutropin alfa Subcutaneous use.\n', b'Pulver zur Injektion Lutropin alfa Subkutane Anwendung\n')
+2021-04-25 11:17:22,291 - INFO     - ~ - [31mSingle tokenized train example input:[0m[ 2326 13139   605  9214  3337  7932  1047    15  1489  4318  6304   331
+  2326 31329 11722     5 16276 14026  2801 11765 14446   363 21981   219
+ 26382   500 30650  4729   992     1]
+2021-04-25 11:17:22,292 - INFO     - ~ - [31mSingle tokenized train example target:[0m[ 2326 13139   605  9214  3337  7932  1047    15  1489  4318  6304   331
+  2326 31329 11722     5 16276 14026  2801 11765 14446   363 21981   219
+ 26382   500 30650  4729   992     1]
+2021-04-25 11:17:22,395 - INFO     - ~ - [32mSingle detokenized example train input: [0mSverige BRISTOL-MYERS SQUIBB AB Tel: + 46 8 704 71 00
+
+2021-04-25 11:17:22,496 - INFO     - ~ - [32mSingle detokenized example train target: [0mSverige BRISTOL-MYERS SQUIBB AB Tel: + 46 8 704 71 00
+
+2021-04-25 11:17:22,598 - INFO     - ~ - [31mtokenize('hello'): [0m[[17332   140     1]]
+2021-04-25 11:17:22,702 - INFO     - ~ - [31mdetokenize([17332, 140, 1]): [0mhello
+2021-04-25 11:17:22,745 - INFO     - ~ - input_batch data type: <class 'numpy.ndarray'>
+2021-04-25 11:17:22,745 - INFO     - ~ - target_batch data type: <class 'numpy.ndarray'>
+2021-04-25 11:17:22,745 - INFO     - ~ - input_batch shape: (32, 64)
+2021-04-25 11:17:22,745 - INFO     - ~ - target_batch shape: (32, 64)
+2021-04-25 11:17:22,849 - INFO     - ~ - [31mTHIS IS THE ENGLISH SENTENCE: 
+[0mDoses of 20 or 40 mg of Trudexa were given by subcutaneous injection every other week with placebo on no
+
+2021-04-25 11:17:22,849 - INFO     - ~ - [31mTHIS IS THE TOKENIZED VERSION OF THE ENGLISH SENTENCE: 
+[0m[14327    33     7   384    66  1015 23306     5     7  6607  8946  9266
+     5   152   621    45  5457  8347 20808  1183 28751   553   137  1890
+    30 27960 17587     5    22   154 30650  4729   992     1     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0]
+2021-04-25 11:17:22,951 - INFO     - ~ - [31mTHIS IS THE GERMAN TRANSLATION: 
+[0mDie Patienten waren ≥ 18 Jahre alt und die Behandlung mit mindestens einem Basistherapeutikum war fehlgeschlagen.
+
+2021-04-25 11:17:22,951 - INFO     - ~ - [31mTHIS IS THE TOKENIZED VERSION OF THE GERMAN TRANSLATION: 
+[0m[   57  5122   507   909 30650  4048  5701  3771   115  1004   506  5334
+    12    10  3544    39  5515   114 18718 19199 17150     5   142 23993
+  4589  3550 30650  4729   992     1     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0]
+2021-04-25 11:17:22,961 - INFO     - ~ - Serial_in2_out2[
+  Select[0,1,0,1]_in2_out4
+  Parallel_in2_out2[
+    Serial[
+      Embedding_33300_1024
+      LSTM_1024
+      LSTM_1024
+    ]
+    Serial[
+      ShiftRight(1)
+      Embedding_33300_1024
+      LSTM_1024
+    ]
+  ]
+  PrepareAttentionInput_in3_out4
+  Serial_in4_out2[
+    Branch_in4_out3[
+      None
+      Serial_in4_out2[
+        Parallel_in3_out3[
+          Dense_1024
+          Dense_1024
+          Dense_1024
+        ]
+        PureAttention_in4_out2
+        Dense_1024
+      ]
+    ]
+    Add_in2
+  ]
+  Select[0,2]_in3_out2
+  LSTM_1024
+  LSTM_1024
+  Dense_33300
+  LogSoftmax
+]
+2021-04-25 11:17:22,964 - WARNING  - No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2021-04-25 11:17:23,136 - INFO     - Initializing hosts and devices: host_id 0, host_count 1, is_chief 1
+2021-04-25 11:17:45,957 - INFO     - Training and evaluation metrics will be written in ./../models/.
+2021-04-25 11:20:36,866 - INFO     - 
+2021-04-25 11:20:36,866 - INFO     - Step     20: Ran 10 train steps in 170.87 secs
+2021-04-25 11:20:36,867 - INFO     - Step     20: train CrossEntropyLoss |  9.36732769
+2021-04-25 11:20:36,870 - INFO     - Step     20: train    learning_rate |  0.00019980
+2021-04-25 11:20:36,870 - INFO     - Step     20: train steps per second |  0.05852545
+2021-04-25 11:20:36,870 - INFO     - Step     20: train     gradients_l2 |  2.31935120
+2021-04-25 11:20:36,870 - INFO     - Step     20: train             loss |  9.36732769
+2021-04-25 11:20:36,870 - INFO     - Step     20: train       weights_l2 |  7454.76660156
+2021-04-25 11:20:40,102 - INFO     - Step     20: eval  CrossEntropyLoss |  8.59932804
+2021-04-25 11:20:40,102 - INFO     - Step     20: eval          Accuracy |  0.03472714
+2021-04-25 11:20:40,104 - INFO     - Training and evaluation metrics were written in ./../models/.
+2021-04-25 11:38:24,109 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:38:24,111 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:38:24,112 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 11:38:24,112 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 11:38:24,154 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:38:24,155 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 11:38:24,155 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 11:38:24,201 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:38:24,203 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:38:24,203 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 11:38:24,203 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 11:38:24,220 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 11:38:24,221 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 11:38:24,221 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 11:38:24,277 - INFO     - ~ - [32mfirst train data (en, de) tuple: [0m(b'These measures should help to protect the environment.\n', b'Diese Ma\xc3\x9fnahmen dienen dem Umweltschutz.\n')
+2021-04-25 11:38:24,741 - INFO     - ~ - [32mfirst eval data (en, de) tuple: [0m(b'Lutropin alfa Subcutaneous use.\n', b'Pulver zur Injektion Lutropin alfa Subkutane Anwendung\n')
+2021-04-25 11:38:24,844 - INFO     - ~ - [31mSingle tokenized train example input:[0m[ 8569  4094  2679 32826 22527     5 30650  4729   992     1]
+2021-04-25 11:38:24,844 - INFO     - ~ - [31mSingle tokenized train example target:[0m[12647 19749    70 32826 10008     5 30650  4729   992     1]
+2021-04-25 11:38:24,949 - INFO     - ~ - [32mSingle detokenized example train input: [0mDecreased Appetite
+
+2021-04-25 11:38:25,047 - INFO     - ~ - [32mSingle detokenized example train target: [0mVerminderter Appetit
+
+2021-04-25 11:38:25,152 - INFO     - ~ - [31mtokenize('hello'): [0m[[17332   140     1]]
+2021-04-25 11:38:25,250 - INFO     - ~ - [31mdetokenize([17332, 140, 1]): [0mhello
+2021-04-25 11:38:25,295 - INFO     - ~ - input_batch data type: <class 'numpy.ndarray'>
+2021-04-25 11:38:25,295 - INFO     - ~ - target_batch data type: <class 'numpy.ndarray'>
+2021-04-25 11:38:25,295 - INFO     - ~ - input_batch shape: (32, 64)
+2021-04-25 11:38:25,295 - INFO     - ~ - target_batch shape: (32, 64)
+2021-04-25 11:38:25,394 - INFO     - ~ - [31mTHIS IS THE ENGLISH SENTENCE: 
+[0mDATE OF FIRST AUTHORISATION/RENEWAL OF THE AUTHORISATION
+
+2021-04-25 11:38:25,395 - INFO     - ~ - [31mTHIS IS THE TOKENIZED VERSION OF THE ENGLISH SENTENCE: 
+[0m[14344   493 11544  9868 18207   693  9227  7933 10547  3337  4205 10617
+   123  3234  4017 13986  1047 11544  4327  9227  7933 10547  3337  4205
+ 10617 30650  4729   992     1     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0]
+2021-04-25 11:38:25,494 - INFO     - ~ - [31mTHIS IS THE GERMAN TRANSLATION: 
+[0mDATUM DER ERTEILUNG DER ERSTZULASSUNG / VERLÄNGERUNG DER ZULASSUNG
+
+2021-04-25 11:38:25,494 - INFO     - ~ - [31mTHIS IS THE TOKENIZED VERSION OF THE GERMAN TRANSLATION: 
+[0m[14344 11459     5  9192  6304  6999  8001 18044  9192  6304 14075  1834
+ 25057  8066  8462 11553  1962 10468  2474  3449  9797  6304 18044  9192
+  1834 25057  8066  8462 11553 30650  4729   992     1     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0]
+2021-04-25 11:38:25,504 - INFO     - ~ - Serial_in2_out2[
+  Select[0,1,0,1]_in2_out4
+  Parallel_in2_out2[
+    Serial[
+      Embedding_33300_1024
+      LSTM_1024
+      LSTM_1024
+    ]
+    Serial[
+      ShiftRight(1)
+      Embedding_33300_1024
+      LSTM_1024
+    ]
+  ]
+  PrepareAttentionInput_in3_out4
+  Serial_in4_out2[
+    Branch_in4_out3[
+      None
+      Serial_in4_out2[
+        Parallel_in3_out3[
+          Dense_1024
+          Dense_1024
+          Dense_1024
+        ]
+        PureAttention_in4_out2
+        Dense_1024
+      ]
+    ]
+    Add_in2
+  ]
+  Select[0,2]_in3_out2
+  LSTM_1024
+  LSTM_1024
+  Dense_33300
+  LogSoftmax
+]
+2021-04-25 11:38:25,508 - WARNING  - No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2021-04-25 11:38:25,671 - INFO     - Initializing hosts and devices: host_id 0, host_count 1, is_chief 1
+2021-04-25 11:38:48,188 - INFO     - Training and evaluation metrics will be written in ./../models/.
+2021-04-25 11:39:10,714 - INFO     - Training and evaluation metrics were written in ./../models/.
+2021-04-25 12:54:01,675 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 12:54:01,677 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 12:54:01,678 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 12:54:01,678 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 12:54:01,723 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 12:54:01,724 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 12:54:01,724 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 12:54:01,786 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 12:54:01,787 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 12:54:01,788 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 12:54:01,789 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 12:54:01,812 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 12:54:01,813 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 12:54:01,813 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 12:54:01,882 - INFO     - ~ - [32mfirst train data (en, de) tuple: [0m(b'Tel: +421 2 57 103 777\n', b'Tel: +421 2 57 103 777\n')
+2021-04-25 12:54:02,440 - INFO     - ~ - [32mfirst eval data (en, de) tuple: [0m(b'Lutropin alfa Subcutaneous use.\n', b'Pulver zur Injektion Lutropin alfa Subkutane Anwendung\n')
+2021-04-25 12:54:02,550 - INFO     - ~ - [31mSingle tokenized train example input:[0m[ 2538  2248    30 12114 23184 16889     5     2 20852  6456 20592  5812
+  3932    96  5178  3851    30  7891  3550 30650  4729   992     1]
+2021-04-25 12:54:02,550 - INFO     - ~ - [31mSingle tokenized train example target:[0m[ 1872    11  3544    39  7019 17877 30432    23  6845    10 14222    47
+  4004    18 21674     5 27467  9513   920   188 10630    18  3550 30650
+  4729   992     1]
+2021-04-25 12:54:02,661 - INFO     - ~ - [32mSingle detokenized example train input: [0mDuring treatment with olanzapine, adolescents gained significantly more weight compared with adults.
+
+2021-04-25 12:54:02,772 - INFO     - ~ - [32mSingle detokenized example train target: [0mWährend der Behandlung mit Olanzapin nahmen die Jugendlichen im Vergleich zu Erwachsenen signifikant mehr Gewicht zu.
+
+2021-04-25 12:54:02,887 - INFO     - ~ - [31mtokenize('hello'): [0m[[17332   140     1]]
+2021-04-25 12:54:03,006 - INFO     - ~ - [31mdetokenize([17332, 140, 1]): [0mhello
+2021-04-25 12:54:03,056 - INFO     - ~ - input_batch data type: <class 'numpy.ndarray'>
+2021-04-25 12:54:03,056 - INFO     - ~ - target_batch data type: <class 'numpy.ndarray'>
+2021-04-25 12:54:03,056 - INFO     - ~ - input_batch shape: (32, 64)
+2021-04-25 12:54:03,056 - INFO     - ~ - target_batch shape: (32, 64)
+2021-04-25 12:54:03,171 - INFO     - ~ - [31mTHIS IS THE ENGLISH SENTENCE: 
+[0mAn initial dose of 0.03 mg/ kg intravenous atropine sulphate is recommended, with subsequent doses based on clinical response.
+
+2021-04-25 12:54:03,172 - INFO     - ~ - [31mTHIS IS THE TOKENIZED VERSION OF THE ENGLISH SENTENCE: 
+[0m[ 1208  4625 20441     7   266     3  6003 23306     5  6722 12221 19978
+  5721  1183 13908  8221   510 19247  6826   191    16  8189     2    30
+  8155  2976  2394   533    22 15481  1531  3550 30650  4729   992     1
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0]
+2021-04-25 12:54:03,281 - INFO     - ~ - [31mTHIS IS THE GERMAN TRANSLATION: 
+[0mInitial werden 0,03 mg/kg Atropinsulfat intravenös empfohlen; weitere Dosen sollten nach der klinischen Reaktion bemessen werden.
+
+2021-04-25 12:54:03,282 - INFO     - ~ - [31mTHIS IS THE TOKENIZED VERSION OF THE GERMAN TRANSLATION: 
+[0m[31899 19192    58   266   227  6003 23306     5   123 12221  8599  7210
+  4624  7632 17466 19978  5721 22080 17544     5   115   774 14327    28
+   354   126    11 28609  4685 13874  5292    58  3550 30650  4729   992
+     1     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0]
+2021-04-25 12:55:17,457 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 12:55:17,459 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 12:55:17,460 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 12:55:17,460 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 12:55:17,503 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 12:55:17,504 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 12:55:17,504 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 12:55:17,553 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 12:55:17,554 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 12:55:17,555 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 12:55:17,555 - INFO     - Constructing tf.data.Dataset for split train[:99%], from ./../data/opus/medical/0.1.0
+2021-04-25 12:55:17,573 - INFO     - Load dataset info from ./../data/opus/medical/0.1.0
+2021-04-25 12:55:17,574 - INFO     - Reusing dataset opus (./../data/opus/medical/0.1.0)
+2021-04-25 12:55:17,574 - INFO     - Constructing tf.data.Dataset for split train[99%:], from ./../data/opus/medical/0.1.0
+2021-04-25 12:55:17,629 - INFO     - ~ - [32mfirst train data (en, de) tuple: [0m(b'Sverige BRISTOL-MYERS SQUIBB AB Tel: + 46 8 704 71 00\n', b'Sverige BRISTOL-MYERS SQUIBB AB Tel: + 46 8 704 71 00\n')
+2021-04-25 12:55:18,106 - INFO     - ~ - [32mfirst eval data (en, de) tuple: [0m(b'Lutropin alfa Subcutaneous use.\n', b'Pulver zur Injektion Lutropin alfa Subkutane Anwendung\n')
+2021-04-25 12:55:18,206 - INFO     - ~ - [31mSingle tokenized train example input:[0m[ 2937    48   604     4  2960    15  7797 12088   473     9     4 20216
+    70 13814  8689  1389     7   139  4773 16766 22939    76    66    13
+ 20216    70  8781     5  3550 30650  4729   992     1]
+2021-04-25 12:55:18,206 - INFO     - ~ - [31mSingle tokenized train example target:[0m[25593     5    67    20 14297 12088    44     6    10  1487    38  8542
+ 10079  9567    14    97   225 21417  8863  6859  7347  3550 30650  4729
+   992     1]
+2021-04-25 12:55:18,313 - INFO     - ~ - [32mSingle detokenized example train input: [0mDo not put the pre-filled pen next to the freezer compartment of your refrigerator or a freezer pack.
+
+2021-04-25 12:55:18,413 - INFO     - ~ - [32mSingle detokenized example train target: [0mLegen Sie den Fertigpen nicht in die Nähe des Gefrierfachs oder eines Kühlelements.
+
+2021-04-25 12:55:18,512 - INFO     - ~ - [31mtokenize('hello'): [0m[[17332   140     1]]
+2021-04-25 12:55:18,630 - INFO     - ~ - [31mdetokenize([17332, 140, 1]): [0mhello
+2021-04-25 12:55:18,672 - INFO     - ~ - input_batch data type: <class 'numpy.ndarray'>
+2021-04-25 12:55:18,672 - INFO     - ~ - target_batch data type: <class 'numpy.ndarray'>
+2021-04-25 12:55:18,672 - INFO     - ~ - input_batch shape: (32, 64)
+2021-04-25 12:55:18,672 - INFO     - ~ - target_batch shape: (32, 64)
+2021-04-25 12:55:18,779 - INFO     - ~ - [31mTHIS IS THE ENGLISH SENTENCE: 
+[0mIn the GIST clinical trial, both gastrointestinal and intra-tumoural haemorrhages were reported (see section 4.8).
+
+2021-04-25 12:55:18,779 - INFO     - ~ - [31mTHIS IS THE TOKENIZED VERSION OF THE ENGLISH SENTENCE: 
+[0m[   71     4  9168 21165 15481  8686     2   298 15256 17233 27307   215
+     8 19978     5    15  9996  5501   278  5802  6165 19662 23779    33
+   152  4981    50   372  2745   219     3   363 33022 30650  4729   992
+     1     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0]
+2021-04-25 12:55:18,882 - INFO     - ~ - [31mTHIS IS THE GERMAN TRANSLATION: 
+[0mIn der klinischen GIST-Studie wurden sowohl gastrointestinale als auch intratumorale Blutungen beobachtet (siehe Abschnitt 4.8).
+
+2021-04-25 12:55:18,883 - INFO     - ~ - [31mTHIS IS THE TOKENIZED VERSION OF THE GERMAN TRANSLATION: 
+[0m[   71    11 28609  9168 21165    15  5355   302   957 15256 17233 27307
+   347    69    74 19978  9996 28091    35  9208   277 17791     5    50
+  4588 10729   219     3   363 33022 30650  4729   992     1     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0]
+2021-04-25 12:55:18,892 - INFO     - ~ - Serial_in2_out2[
+  Select[0,1,0,1]_in2_out4
+  Parallel_in2_out2[
+    Serial[
+      Embedding_33300_1024
+      LSTM_1024
+      LSTM_1024
+    ]
+    Serial[
+      ShiftRight(1)
+      Embedding_33300_1024
+      LSTM_1024
+    ]
+  ]
+  PrepareAttentionInput_in3_out4
+  Serial_in4_out2[
+    Branch_in4_out3[
+      None
+      Serial_in4_out2[
+        Parallel_in3_out3[
+          Dense_1024
+          Dense_1024
+          Dense_1024
+        ]
+        PureAttention_in4_out2
+        Dense_1024
+      ]
+    ]
+    Add_in2
+  ]
+  Select[0,2]_in3_out2
+  LSTM_1024
+  LSTM_1024
+  Dense_33300
+  LogSoftmax
+]
+2021-04-25 12:55:18,896 - WARNING  - No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2021-04-25 12:55:19,063 - INFO     - Initializing hosts and devices: host_id 0, host_count 1, is_chief 1
+2021-04-25 12:55:41,795 - INFO     - Training and evaluation metrics will be written in ./../models/.
+2021-04-25 12:56:06,490 - INFO     - Training and evaluation metrics were written in ./../models/.

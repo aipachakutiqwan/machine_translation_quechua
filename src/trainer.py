@@ -1,6 +1,7 @@
 """
 Training proccess with attention model
 """
+import os
 from termcolor import colored
 import trax
 from trax import layers as tl
@@ -42,7 +43,7 @@ class Trainer():
                                         train=False)
         return train_stream_fn, eval_stream_fn
 
-    def run(self, folder_data, vocab_file, vocab_dir, output_dir):
+    def run(self, folder_data, vocab_file, vocab_dir, output_dir, training_steps):
         """
         Runner of the training process
         Args:
@@ -92,14 +93,16 @@ class Trainer():
                                       eval_tasks=[eval_task],
                                       output_dir=output_dir)
         # Execute the training loop, this will take time.
-        training_loop.run(1)
+        training_loop.run(training_steps)
         return train_batch_stream, eval_batch_stream, mask_batch
 
 if __name__ == "__main__":
+   
+    FOLDER_DATA = os.environ.get('FOLDER_DATA', './../data/')
+    VOCAB_FILE = os.environ.get('VOCAB_FILE', 'ende_32k.subword')
+    VOCAB_DIR = os.environ.get('VOCAB_DIR', './../data/')
+    OUTPUT_DIR = os.environ.get('OUTPUT_DIR', './../models/')
+    TRAINING_STEPS = int(os.environ.get('TRAINING_STEPS', 1))
 
-    FOLDER_DATA = './../data/'
-    VOCAB_FILE = 'ende_32k.subword'
-    VOCAB_DIR = './../data/'
-    OUTPUT_DIR = './../models/'
     TRAINER = Trainer()
-    _, _, _ = TRAINER.run(FOLDER_DATA, VOCAB_FILE, VOCAB_DIR, OUTPUT_DIR)
+    _, _, _ = TRAINER.run(FOLDER_DATA, VOCAB_FILE, VOCAB_DIR, OUTPUT_DIR, TRAINING_STEPS)
