@@ -1,6 +1,3 @@
-./.idea
-./.ipynb_checkpoints
-./.pytest_cache
-./notebooks
+.idea
 notebooks
 
